@@ -1,23 +1,23 @@
-### Hi there 👋
+![Computer Scientist](https://media.licdn.com/dms/image/D5616AQHrr5lPuLyPAg/profile-displaybackgroundimage-shrink_350_1400/0/1675270520711?e=1686182400&v=beta&t=5Yhbt26PuHCkGm2_e731Ir2IbAkhlE_VaQqSqZR9Uro)
 
-I'm Maxim
+# Maxim
 
 [![Maxim's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jenner-Maxim)](https://github.com/Jenner-Maxim/github-readme-stats)
 
-### Hi there 👋, my name is Maxim
-#### Computer Scientist
-![Computer Scientist](https://media.licdn.com/dms/image/D5616AQHrr5lPuLyPAg/profile-displaybackgroundimage-shrink_350_1400/0/1675270520711?e=1686182400&v=beta&t=5Yhbt26PuHCkGm2_e731Ir2IbAkhlE_VaQqSqZR9Uro)
+# My name is Maxim
 
-I'm a Computer Scientist
+## I'm a Computer Scientist
 
-Skills: HTML / CSS / JAVASCRIPT / PYTHON
+Skills:  HTML / CSS / JAVASCRIPT / PYTHON
 
 - 🔭 I’m currently working on this page. 
 - 🌱 I’m currently learning JavaScript, Python and Back-end 
 - 👯 I’m looking to collaborate on Open Source project 
 - 📫 How to reach me: +256740639860 
-- 😄 Pronouns: He 
 
+## Examples of Work
+<a href="https://www.youtube.com/watch?v=tWyk0lP-q1c" target="_blank"><img src="https://www.youtube.com/watch?v=tWyk0lP-q1c" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Jenner-Maxim)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/kagheni-maximillien-b11051251/)  
 
