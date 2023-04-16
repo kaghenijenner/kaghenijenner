@@ -10,8 +10,8 @@
 
 Skills:  HTML / CSS / JAVASCRIPT / PYTHON
 
-- 🔭 I’m currently working on this page. 
-- 🌱 I’m currently learning JavaScript, Python and Back-end 
+- 🔭 I’m currently working on MovieLand Website. 
+- 🌱 I’m currently learning JavaScript, ReactJs, Python and Back-end.
 - 👯 I’m looking to collaborate on Open Source project 
 - 📫 How to reach me: +256740639860 
 
