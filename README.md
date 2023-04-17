@@ -16,11 +16,13 @@ Skills:  HTML / CSS / JAVASCRIPT / PYTHON
 - 📫 How to reach me: +256740639860 
 
 ## Examples of Work
+
 <a href="https://www.youtube.com/watch?v=tWyk0lP-q1c" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 <a href="https://maxim-movieland.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/JennerMaxim)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/kagheni-maximillien-b11051251/)  
 
