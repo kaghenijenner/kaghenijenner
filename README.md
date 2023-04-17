@@ -20,7 +20,7 @@ Skills:  HTML / CSS / JAVASCRIPT / PYTHON
 <a href="https://www.youtube.com/watch?v=tWyk0lP-q1c" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-<a href="https://maxim-movieland.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" 
+<a href="https://maxim-movieland.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/aaa.jpeg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
