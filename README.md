@@ -10,7 +10,8 @@
 
 Skills:  HTML / CSS / JAVASCRIPT / PYTHON
 
-- 🔭 I’m currently working on https://maxim-movieland.netlify.app/ website.
+- 🔭 I’m currently working on this project https://github.com/JennerMaxim/ReactJs/tree/main/todo.
+                               It is a Todo App / you can add or remove content on your schedule.
 - 🌱 I’m currently learning JavaScript, ReactJs, Python and Back-end.
 - 👯 I’m looking to collaborate on Open Source project 
 - 📫 How to reach me: +256740639860 
