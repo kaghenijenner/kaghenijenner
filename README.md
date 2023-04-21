@@ -20,9 +20,7 @@ Skills:  HTML / CSS / JAVASCRIPT / PYTHON / MySQL
 
 <a href="https://maximdoccure.netlify.app/" target="_blank"><img 
 src="https://github.com/JennerMaxim/Doccure/blob/main/chat/assets/img/logo.png" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-<a href="https://maximmovieland.netlify.app/" target="_blank"><img 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> | <a href="https://maximmovieland.netlify.app/" target="_blank"><img 
 src="https://github.com/JennerMaxim/JennerMaxim/blob/main/aaa.jpeg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
