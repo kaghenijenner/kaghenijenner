@@ -18,6 +18,10 @@ Skills:  HTML / CSS / JAVASCRIPT / PYTHON / MySQL
 
 ## Examples of Work
 
+<a href="https://maximdoccure.netlify.app/" target="_blank"><img 
+src="https://github.com/JennerMaxim/JennerMaxim/blob/main/aaa.jpeg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 <a href="https://maximmovieland.netlify.app/" target="_blank"><img 
 src="https://github.com/JennerMaxim/JennerMaxim/blob/main/aaa.jpeg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
