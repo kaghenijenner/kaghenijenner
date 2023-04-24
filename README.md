@@ -24,6 +24,14 @@ src="https://github.com/JennerMaxim/ReactJs/blob/main/movieland/MovieLand.png" a
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
+## Certificate
+
+<a href="https://www.typing.com/apiv1/student/tests/245703276/143290874/certificate?language=en&product_id=typing" target="_blank"><img src="https://github.com/JennerMaxim/Doccure/blob/main/chat/assets/img/logo.png" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> | <a href="https://maximmovieland.netlify.app/" target="_blank"><img 
+src="https://github.com/JennerMaxim/ReactJs/blob/main/movieland/MovieLand.png" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> | <a href="https://www.youtube.com/watch?v=tWyk0lP-q1c" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/JennerMaxim)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/kagheni-maximillien-b11051251/)  
 
 <a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a> <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a> 
