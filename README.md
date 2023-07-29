@@ -8,7 +8,7 @@
 
 ## I'm a Computer Scientist
 
-Skills:  HTML / CSS / JAVASCRIPT / PYTHON / MySQL
+Skills:  HTML / CSS / JAVASCRIPT / PYTHON / MySQL / WordPress / NETWORKING / COMPUTER REPAIR
 
 - 🔭 I’m currently working on this project https://github.com/JennerMaxim/ReactJs/tree/main/todo.
                                It is a Todo App / you can add or remove content on your schedule.
