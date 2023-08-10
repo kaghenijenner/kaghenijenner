@@ -6,9 +6,9 @@
 
 # My name is Maxim
 
-## I'm a Computer Scientist
+## I'm a Computer Scientist / Full-stack Developer
 
-Skills:  HTML / CSS / JAVASCRIPT / PYTHON / MySQL / WordPress / NETWORKING / COMPUTER REPAIR
+Skills:  HTML / CSS / JAVASCRIPT / PHP / PYTHON / MySQL / WordPress / NETWORKING / COMPUTER REPAIR
 
 - 🔭 I’m currently working on this project https://github.com/JennerMaxim/ReactJs/tree/main/todo.
                                It is a Todo App / you can add or remove content on your schedule.
