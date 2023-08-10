@@ -10,9 +10,9 @@
 
 Skills:  HTML / CSS / JAVASCRIPT / PHP / PYTHON / MySQL / WordPress / NETWORKING / COMPUTER REPAIR
 
-- 🔭 I’m currently working on this project https://github.com/JennerMaxim/ReactJs/tree/main/todo.
-                               It is a Todo App / you can add or remove content on your schedule.
-- 🌱 I’m currently learning JavaScript, ReactJs, Python, and Back-end.
+- 🔭 I’m currently working on this project https://github.com/JennerMaxim/hospital_management_system.
+                               It is a Hospital Management System for RazorTech Company.
+- 🌱 I’m currently learning ReactJs, Python, and Back-end.
 - 👯 I’m looking to collaborate on Open Source project 
 - 📫 How to reach me: +256740639860 
 
