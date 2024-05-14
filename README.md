@@ -21,12 +21,12 @@ Skills:  HTML / CSS / JAVASCRIPT / REACT.JS / NODE.JS / PHP / PYTHON / MySQL / F
 <a href="https://salonhubuganda.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/salonhub.png" alt="SalonHub Uganda Ltd" width="240" height="180" border="10" /></a> | 
 <a href="https://cavendish-canteen.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/JennerMaxim/blob/main/Cavendish%20Canteen.png" alt="Cavendish Canteen" width="240" height="180" border="10" /></a> | 
 <a href="https://maximdoccure.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/Doccure/blob/main/chat/assets/img/logo.png" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  |
-<a href="https://maximmovieland.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/ReactJs/blob/main/movieland/MovieLand.png" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  |  
+<a href="https://maximmovieland.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/ReactJs/blob/main/movieland/MovieLand.png" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  |
 <a href="https://todo-app-javascript-maxim.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/todo_app_javascript.png" 
-alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |  
-<a href="https://happy-birthday-doo-wan.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/happy-birthday.avif" alt="HAPPY BIRTHDAY" width="240" height="180" border="10" /></a> | 
-<a href="https://maxim-javascript-animation.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/animation.jpg" alt="ANIMATION USING JAVASCRIPT" width="240" height="180" border="10" /></a> |  
-<a href="https://www.youtube.com/watch?v=tWyk0lP-q1c" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> |  
+alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
+<a href="https://happy-birthday-doo-wan.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/happy-birthday.avif" alt="HAPPY BIRTHDAY" width="240" height="180" border="10" /></a> |
+<a href="https://maxim-javascript-animation.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/animation.jpg" alt="ANIMATION USING JAVASCRIPT" width="240" height="180" border="10" /></a> |
+<a href="https://www.youtube.com/watch?v=tWyk0lP-q1c" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> |
 <a href="https://timer-maxim.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/timer.png" alt="TIMER" width="240" height="180" border="10" /></a>
 
 
