@@ -52,7 +52,7 @@ const Header = () => {
                     </div>
                     <div className="right-nav">
                         <a href="#">About Me</a>
-                        <a href="#">My Services</a>
+                        <a href="#">My Projects</a>
                         <a href="#">Contact Me</a>
                     </div>
                 </div>
