@@ -22,7 +22,7 @@ Skills:  HTML / CSS / JAVASCRIPT / REACT.JS / NODE.JS / PHP / PYTHON / MySQL / F
 <a href="https://cavendish-canteen.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/JennerMaxim/blob/main/Cavendish%20Canteen.png" alt="Cavendish Canteen" width="240" height="180" border="10" /></a> | 
 <a href="https://maximdoccure.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/Doccure/blob/main/chat/assets/img/logo.png" alt="DOCCURE" width="240" height="180" border="10" /></a>  |
 <a href="https://maximmovieland.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/ReactJs/blob/main/movieland/MovieLand.png" alt="MOVIE LAND" width="240" height="180" border="10" /></a>  |
-<a href="http://appointment-maxim.rf.gd/" target="_blank"><img src="https://github.com/JennerMaxim/ReactJs/blob/main/movieland/MovieLand.png" alt="DOCTOR APPOINTMENT SYSTEM" width="240" height="180" border="10" /></a>  |
+<a href="http://appointment-maxim.rf.gd/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Doctor%20Appointment%20System.png" alt="DOCTOR APPOINTMENT SYSTEM" width="240" height="180" border="10" /></a>  |
 <a href="https://todo-app-javascript-maxim.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/todo_app_javascript.png" 
 alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
 <a href="https://happy-birthday-doo-wan.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/happy-birthday.avif" alt="HAPPY BIRTHDAY" width="240" height="180" border="10" /></a> |
