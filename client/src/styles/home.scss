@@ -1,0 +1,162 @@
+.home {
+  width: 100vw;
+
+  .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    .about-me {
+      padding: 50px 80px;
+      text-align: left;
+
+      h1 {
+        span {
+          position: relative;
+
+          &::before {
+            content: "Jenner Maxim";
+            animation: words 50s infinite;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            width: calc(100% + 8px);
+            height: 100%;
+            background-color: #242424;
+            border-left: 2px solid #fff;
+            right: -8px;
+            animation: cursor 0.8s infinite, typing 50s steps(30) infinite;
+          }
+        }
+      }
+
+      .languages {
+        span {
+          position: relative;
+          color: #646cff;
+          font-weight: bold;
+
+          &::before {
+            content: " HTML";
+            animation: skills 80s infinite;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            width: calc(100% + 8px);
+            height: calc(100% + 4px);
+            border-left: 2px solid #646cff;
+            background-color: #242424;
+            right: -8px;
+            animation: cursor 0.8s infinite, typing 40s steps(14) infinite;
+          }
+        }
+
+        @keyframes skills {
+          0%,
+          10% {
+            content: "HTML + CSS";
+          }
+          11%,
+          20% {
+            content: "JavaScript";
+          }
+          21%,
+          30% {
+            content: "React";
+          }
+          31%,
+          40% {
+            content: "PHP + MySQL";
+          }
+          41%,
+          50% {
+            content: "Firebase";
+          }
+          51%,
+          60% {
+            content: "WordPress";
+          }
+          61%,
+          70% {
+            content: "Blender";
+          }
+          71%,
+          80% {
+            content: "Photoshop";
+          }
+          81%,
+          90% {
+            content: "Computer Repair";
+          }
+          91%,
+          100% {
+            content: "Graphic Design";
+          }
+        }
+      }
+
+      @keyframes cursor {
+        to {
+          border-left: 2px solid #242424;
+        }
+      }
+
+      @keyframes words {
+        0%,
+        20% {
+          content: "Software Developer";
+        }
+        21%,
+        40% {
+          content: "Front-end Developer";
+        }
+        41%,
+        60% {
+          content: "Backend Developer";
+        }
+        61%,
+        80% {
+          content: "Web Developer";
+        }
+        81%,
+        100% {
+          content: "Network Engeneer";
+        }
+      }
+
+      @keyframes typing {
+        10%,
+        15%,
+        30%,
+        35%,
+        50%,
+        55%,
+        70%,
+        75%,
+        90%,
+        95% {
+          width: 0;
+        }
+        5%,
+        20%,
+        25%,
+        40%,
+        45%,
+        60%,
+        65%,
+        80%,
+        85% {
+          width: calc(100% + 8px);
+        }
+      }
+    }
+
+    img {
+      border-radius: 0 0 0 30px;
+    }
+  }
+}
