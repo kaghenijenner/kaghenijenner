@@ -11,7 +11,7 @@
 Skills:  HTML / CSS / JAVASCRIPT / REACT.JS / NODE.JS / PHP / PYTHON / MySQL / FIREBASE / WordPress / NETWORKING / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER
 
 - 🔭 I’m currently working on this project: https://github.com/jennermaxim/chatApp. I'm developing a Chat Application using React.js as the front end and Firebase as the back end.
-- 🌱 I’m currently learning ReactJs, Python, and Back-end.
+- 🌱 I’m currently learning Python and Back-end.
 - 👯 I’m looking to collaborate on Open Source project 
 - 📫 How to reach me: +256740639860 
 
