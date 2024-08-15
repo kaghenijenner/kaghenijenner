@@ -6,7 +6,7 @@ import Instagram from '../assets/instagram.png';
 import Maxim from '../assets/jennermaxim.png';
 import Whatsapp from '../assets/whatsapp.png'
 import Telegram from '../assets/telegram.png';
-
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
@@ -54,6 +54,7 @@ const Header = () => {
                         <a href="#">About Me</a>
                         <a href="#">My Projects</a>
                         <a href="#">Contact Me</a>
+                        <a href="#"><Link to="/resume">Resume</Link></a>
                     </div>
                 </div>
                 <hr />
