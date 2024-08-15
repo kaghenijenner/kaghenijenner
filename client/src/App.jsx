@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header';
 import Home from './pages/Home';
-import Resume from './components/Resume';
+import Resume from './pages/Resume';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
