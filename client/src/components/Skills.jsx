@@ -10,11 +10,13 @@ import ReactJS from "../assets/react.jpg";
 import Firebase from "../assets/firebase.png";
 import Flutter from "../assets/flutter.png";
 import Python from "../assets/python.jpg";
+import Linux from "../assets/linux.png";
+import Node from "../assets/nodejs.png";
 
 const Skills = () => {
     const skills = [
         { img: HTMLCSS, title: "HTML & CSS", level: 100 },
-        { img: JS, title: "JavaScript", level: 70 },
+        { img: JS, title: "JavaScript", level: 80 },
         { img: ReactJS, title: "React", level: 70 },
         { img: PHP, title: "PHP", level: 90 },
         { img: MySQL, title: "MySQL", level: 100 },
@@ -23,6 +25,8 @@ const Skills = () => {
         { img: PhotoShop, title: "PhotoShop", level: 90 },
         { img: Blender, title: "Blender", level: 80 },
         { img: Flutter, title: "Flutter", level: 50 },
+        { img: Linux, title: "Kali Linux", level: 100 },
+        { img: Node, title: "Nodejs", level: 20 }
     ];
     const sortedSkills = skills.sort((a, b) => b.level - a.level);
     return (

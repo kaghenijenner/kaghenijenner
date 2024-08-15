@@ -11,6 +11,12 @@
   }
 }
 
+@mixin maxtablet {
+  @media screen and (max-width: 800px) {
+    @content;
+  }
+}
+
 @mixin laptop {
   @media screen and (max-width: 1200px) {
     @content;
@@ -29,17 +35,20 @@
 
     .skill {
       padding: 10px;
+      border-radius: 10px;
+      margin: 20px;
+      background: #000;
 
-      img{
-        width: 150px;
-        height: 150px;
+      img {
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
         object-fit: cover;
       }
 
-      h4{
-        @include mobile{
-            margin: 5px;
+      h4 {
+        @include mobile {
+          margin: 5px;
         }
       }
 
@@ -50,8 +59,8 @@
         border-radius: 5px;
         transition: width 0.3s ease-in-out;
 
-        @include mobile{
-            margin: 5px;
+        @include mobile {
+          margin: 5px;
         }
 
         span {

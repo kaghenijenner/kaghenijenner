@@ -5,8 +5,20 @@
   }
 }
 
+@mixin maxmobile {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
 @mixin tablet {
   @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin maxtablet {
+  @media screen and (max-width: 800px) {
     @content;
   }
 }
@@ -18,14 +30,14 @@
 }
 
 .home {
-  width: 100vw;
+  width: 100%;
 
   .profile {
     display: flex;
     justify-content: space-between;
     align-items: start;
 
-    @include mobile {
+    @include maxtablet {
       flex-direction: column;
       align-items: center;
     }
@@ -39,6 +51,9 @@
       }
 
       h1 {
+        @include mobile{
+          font-size: 25px;
+        }
         span {
           position: relative;
 
@@ -185,7 +200,7 @@
 
     img {
       border-radius: 0 0 0 30px;
-      @include mobile{
+      @include mobile {
         border-radius: 0 0 30px 30px;
       }
     }
