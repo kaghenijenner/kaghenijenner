@@ -44,7 +44,7 @@ const Header = () => {
                     <div className="logo">
                         <img src={Maxim} alt="Jenner Maxim" />
                         <a href="#">
-                            <h1>Jenner Maxim</h1>
+                            <Link to="/"><h1>Jenner Maxim</h1></Link>
                         </a>
                     </div>
                     <div className="search">

@@ -1,3 +1,22 @@
+// RESPONSIVENESS
+@mixin mobile {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
 .home {
   width: 100vw;
 
@@ -6,9 +25,18 @@
     justify-content: space-between;
     align-items: start;
 
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+
     .about-me {
       padding: 50px 80px;
       text-align: left;
+
+      @include mobile {
+        padding: 20px;
+      }
 
       h1 {
         span {
@@ -157,6 +185,9 @@
 
     img {
       border-radius: 0 0 0 30px;
+      @include mobile{
+        border-radius: 0 0 30px 30px;
+      }
     }
   }
 }
