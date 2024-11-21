@@ -23,6 +23,7 @@ Skills:  HTML / CSS / JAVASCRIPT / JQUERY / AJAX / REACT.JS / NODE.JS / PHP / PY
 <a href="https://jennermaxim.netlify.app/" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="180" border="10" /></a> |
 <a href="https://maxim-chat-app.netlify.app" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/ChatApp" alt="Chat Application" width="240" height="180" border="10" /></a> | 
 <a href="https://salonhubuganda.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/salonhub.png" alt="SalonHub Uganda Ltd" width="240" height="180" border="10" /></a> | 
+<a href="https://automendy.com" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/bg.jpg" alt="AutoMendy" width="240" height="180" border="10" /></a> | 
 <a href="https://cavendish-canteen.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/JennerMaxim/blob/main/Cavendish%20Canteen.png" alt="Cavendish Canteen" width="240" height="180" border="10" /></a> | 
 <a href="https://maximdoccure.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/Doccure/blob/main/chat/assets/img/logo.png" alt="DOCCURE" width="240" height="180" border="10" /></a>  |
 <a href="https://maximmovieland.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/ReactJs/blob/main/movieland/MovieLand.png" alt="MOVIE LAND" width="240" height="180" border="10" /></a>  |
