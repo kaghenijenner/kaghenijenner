@@ -18,7 +18,7 @@ const Skills = () => {
         { img: HTMLCSS, title: "HTML & CSS", level: 100 },
         { img: JS, title: "JavaScript", level: 80 },
         { img: ReactJS, title: "React", level: 70 },
-        { img: PHP, title: "PHP", level: 90 },
+        { img: PHP, title: "PHP", level: 100 },
         { img: MySQL, title: "MySQL", level: 100 },
         { img: Firebase, title: "Firebase", level: 50 },
         { img: Python, title: "Python", level: 20 },
