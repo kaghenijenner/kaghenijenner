@@ -7,6 +7,9 @@
 # My name is Jenner Maxim
 
 ## I'm a Computer Scientist / Software Engineer
+I'm a passionate software developer with expertise in building scalable, efficient, and user-friendly applications. With a deep understanding of various programming languages and a knack for solving complex problems, I strive to deliver high-quality software solutions that meet and exceed client expectations.
+
+Feel free to explore my portfolio, learn more about my skills, and get in touch if you'd like to collaborate on a project!
 
 Skills:  HTML / CSS / JAVASCRIPT / JQUERY / AJAX / REACT.JS / NODE.JS / PHP / PYTHON / MySQL / FIREBASE / WordPress / NETWORKING / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER
 
