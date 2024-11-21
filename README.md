@@ -1,10 +1,10 @@
 ![Computer Scientist](https://media.licdn.com/dms/image/D5616AQHrr5lPuLyPAg/profile-displaybackgroundimage-shrink_350_1400/0/1675270520711?e=1686182400&v=beta&t=5Yhbt26PuHCkGm2_e731Ir2IbAkhlE_VaQqSqZR9Uro)
 
-# Maxim
+# Jenner Maxim
 
 [![Maxim's GitHub stats](https://github-readme-stats.vercel.app/api?username=JennerMaxim)](https://github.com/Jenner-Maxim/github-readme-stats)
 
-# My name is Maxim
+# My name is Jenner Maxim
 
 ## I'm a Computer Scientist / Software Engineer
 
@@ -15,7 +15,7 @@ Skills:  HTML / CSS / JAVASCRIPT / JQUERY / AJAX / REACT.JS / NODE.JS / PHP / PY
 - 👯 I’m looking to collaborate on Open Source project 
 - 📫 How to reach me: +256740639860 | jennersi1remaxim@gmail.com
 
-## Examples of Work
+## Examples of My Work
 
 <a href="https://jennermaxim.netlify.app/" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="180" border="10" /></a> |
 <a href="https://maxim-chat-app.netlify.app" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/ChatApp" alt="Chat Application" width="240" height="180" border="10" /></a> | 
