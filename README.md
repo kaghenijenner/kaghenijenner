@@ -1,10 +1,10 @@
 # Jenner Maxim
 
 - ### GitHub Statistics
-  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=dracula&show_icons=true)
+  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=discord_old_blurple&show_icons=true)
 
-   ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jennermaxim&theme=darcula) 
-  
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jennermaxim&theme=discord_old_blurple) 
+ 
 ### My name is Jenner Maxim
 ### I'm a Software Engineer
 I'm a passionate Software Engineer with expertise in building scalable, efficient, and user-friendly applications. With a deep understanding of various programming languages and a knack for solving complex problems, I strive to deliver high-quality software solutions that meet and exceed client expectations.
