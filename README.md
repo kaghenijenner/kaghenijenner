@@ -43,21 +43,21 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
 <hr></hr>
 
 - ### My GitHub Trophies
-  [![trophy](https://github-profile-trophy.vercel.app/?username=jennermaxim&theme=dracula)](https://github.com/ryo-ma/github-profile-trophy)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=jennermaxim&theme=discord_old_blurple)](https://github.com/ryo-ma/github-profile-trophy)
 
 - ### Most Used Language
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jennermaxim&theme=onedark)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jennermaxim&theme=discord_old_blurple)
 
 - ### Most Used Language by Repo (used in most repos)
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jennermaxim&theme=dracula)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jennermaxim&theme=discord_old_blurple)
   
 - ### Most Used Language by Commit (most committed)
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jennermaxim&theme=dracula)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jennermaxim&theme=discord_old_blurple)
 
 - ### GitHub Metrics
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jennermaxim&theme=dracula)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jennermaxim&theme=discord_old_blurple)
   ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim&theme=darcula&utcOffset=3)
 
 - ### GitHub Streak Statistics
-  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=jennermaxim&theme=onedark)](https://git.io/streak-stats)
+  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=jennermaxim&theme=discord_old_blurple)](https://git.io/streak-stats)
 
