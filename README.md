@@ -62,10 +62,10 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=jennermaxim)  
 
 - ### GitHub Metrics
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=abanicaisse&theme=dracula)
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abanicaisse/&theme=dracula)
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abanicaisse&theme=dracula)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jennermaxim&theme=dracula)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim/&theme=dracula)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim&theme=dracula)
 
 - ### GitHub Streak Statistics
-  ![GitHub streak stats](https://streak-stats.demolab.com/?user=jennermaxim)  
+  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=jennermaxim&theme=onedark)](https://git.io/streak-stats)
 
