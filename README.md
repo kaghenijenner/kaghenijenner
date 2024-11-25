@@ -2,7 +2,7 @@
 
 # Jenner Maxim
 
-[![Maxim's GitHub stats](https://github-readme-stats.vercel.app/api?username=JennerMaxim)](https://github.com/Jenner-Maxim/github-readme-stats)
+[![Maxim's GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=darcula)](https://github.com/jennermaxim/github-readme-stats)
 
 # My name is Jenner Maxim
 
