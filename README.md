@@ -1,9 +1,8 @@
-![Computer Scientist](https://media.licdn.com/dms/image/D5616AQHrr5lPuLyPAg/profile-displaybackgroundimage-shrink_350_1400/0/1675270520711?e=1686182400&v=beta&t=5Yhbt26PuHCkGm2_e731Ir2IbAkhlE_VaQqSqZR9Uro)
-
 # Jenner Maxim
 
-[![Maxim's GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=darcula)](https://github.com/Jenner-Maxim/github-readme-stats)
-
+- ### GitHub Statistics
+  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=dracula&show_icons=true)
+  
 # My name is Jenner Maxim
 
 ## I'm a Software Engineer
@@ -48,11 +47,9 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
 
 - ### Most Used Language by Repo (used in most repos)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jennermaxim&theme=dracula)
+  
 - ### Most Used Language by Commit (most committed)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jennermaxim&theme=dracula)
-
-- ### GitHub Statistics
-  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=dracula&show_icons=true)  
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=jennermaxim)  
 
