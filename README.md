@@ -47,7 +47,9 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=jennermaxim)](https://github.com/ryo-ma/github-profile-trophy)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jennermaxim)](https://github.com/anuraghazra/github-readme-stats)
+
+- ### Most Used Language
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abanicaisse&theme=onedark)
 
 - ### Most Used Language by Repo (used in most repos)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jennermaxim&theme=dracula)
