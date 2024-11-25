@@ -2,6 +2,8 @@
 
 - ### GitHub Statistics
   ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=dracula&show_icons=true)
+
+   ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jennermaxim&theme=darcula) 
   
 ### My name is Jenner Maxim
 ### I'm a Software Engineer
@@ -54,7 +56,7 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
 
 - ### GitHub Metrics
   ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jennermaxim&theme=dracula)
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim&theme=dracula)
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim&theme=darcula&utcOffset=3)
 
 - ### GitHub Streak Statistics
   [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=jennermaxim&theme=onedark)](https://git.io/streak-stats)
