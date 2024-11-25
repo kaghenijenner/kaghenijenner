@@ -56,11 +56,16 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
 - ### Most Used Language by Commit (most committed)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jennermaxim&theme=dracula)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=dracula&show_icons=true)  
+- ### GitHub Statistics
+  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=dracula&show_icons=true)  
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=jennermaxim)  
 
-![GitHub metrics](https://metrics.lecoq.io/jennermaxim)  
+- ### GitHub Metrics
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=abanicaisse&theme=dracula)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abanicaisse/&theme=dracula)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abanicaisse&theme=dracula)
 
-![GitHub streak stats](https://streak-stats.demolab.com/?user=jennermaxim)  
+- ### GitHub Streak Statistics
+  ![GitHub streak stats](https://streak-stats.demolab.com/?user=jennermaxim)  
 
