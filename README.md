@@ -52,8 +52,6 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a>  |
 - ### Most Used Language by Commit (most committed)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jennermaxim&theme=dracula)
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=jennermaxim)  
-
 - ### GitHub Metrics
   ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jennermaxim&theme=dracula)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim&theme=dracula)
