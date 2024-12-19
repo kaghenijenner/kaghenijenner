@@ -23,6 +23,8 @@ const Skills = () => {
     const skills = [
         { img: HTMLCSS, title: "HTML & CSS", level: 100 },
         { img: JS, title: "JavaScript", level: 100 },
+        { img: JQuery, title: "JQuery", level: 100 },
+        { img: AJAX, title: "Ajax", level: 100 },
         { img: ReactJS, title: "React.js", level: 70 },
         { img: PHP, title: "PHP", level: 100 },
         { img: MySQL, title: "MySQL", level: 100 },
@@ -33,8 +35,6 @@ const Skills = () => {
         { img: Flutter, title: "Flutter", level: 60 },
         { img: Linux, title: "Kali Linux", level: 100 },
         { img: Node, title: "Node.js", level: 20 },
-        { img: JQuery, title: "JQuery", level: 100 },
-        { img: AJAX, title: "Ajax", level: 100 },
         { img: Angular, title: "Angular.js", level: 50 },
         { img: Nextjs, title: "Next.js", level: 50 },
         { img: TypeScript, title: "TypeScript", level: 50 },
