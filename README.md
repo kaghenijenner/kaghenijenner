@@ -20,7 +20,6 @@ Skills: HTML / CSS / JAVASCRIPT / JQUERY / AJAX / REACT.JS / NODE.JS / PHP / PYT
 
 ## Examples of My Work
 
-Online-food-ordering-system.jpg
 <a href="https://jennermaxim.netlify.app/" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="180" border="10" /></a> |
 <a href="https://maxim-chat-app.netlify.app" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/ChatApp" alt="Chat Application" width="240" height="180" border="10" /></a> |
 <a href="https://salonhubuganda.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/salonhub.png" alt="SalonHub Uganda Ltd" width="240" height="180" border="10" /></a> |
