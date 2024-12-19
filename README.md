@@ -1,13 +1,12 @@
-![Computer Scientist](https://media.licdn.com/dms/image/D5616AQHrr5lPuLyPAg/profile-displaybackgroundimage-shrink_350_1400/0/1675270520711?e=1686182400&v=beta&t=5Yhbt26PuHCkGm2_e731Ir2IbAkhlE_VaQqSqZR9Uro)
-
 # Jenner Maxim
 
-[![Maxim's GitHub stats](https://github-readme-stats.vercel.app/api?username=JennerMaxim)](https://github.com/Jenner-Maxim/github-readme-stats)
+- ### GitHub Statistics
+  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=discord_old_blurple&show_icons=true)
 
-# My name is Jenner Maxim
-
-## I'm a Software Engineer
-
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jennermaxim&theme=discord_old_blurple) 
+ 
+### My name is Jenner Maxim
+### I'm a Software Engineer
 I'm a passionate Software Engineer with expertise in building scalable, efficient, and user-friendly applications. With a deep understanding of various programming languages and a knack for solving complex problems, I strive to deliver high-quality software solutions that meet and exceed client expectations.
 
 Feel free to explore my portfolio, learn more about my skills, and get in touch if you'd like to collaborate on a project!
@@ -42,18 +41,24 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
 
 <a href="https://www.typing.com/student/verify#267555799-143290874" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Advanced%20Assessment.png" alt="TYPING CERTIFICATE" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/1OMbY5" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/Google%20Learn%20DevOps%20for%20Web%20Development.png" alt="CERTIFICATE of DevOps for Web Development" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/1UuGJB" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/Google%20JavaScript%20%26%20React.js.png" alt="CERTIFICATE of JavaScript & React.js" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/2lPUQu" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/DevTown%20Tinder%20Clone%20using%20HTML%20%26%20CSSL.png" alt="CERTIFICATE of Tinder Clone using HTML & CSS" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/geks9" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Microsoft%20Tinder%20Clone%20using%20HTML%20%26%20CSS.png" alt="MICROSOFT CERTIFICATE of Tinder Clone using HTML & CSS" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/Z13U6P7" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Microsoft%20JavaScript%20%26%20React.js.png" alt="MICROSOFT CERTIFICATE of JavaScript & React.js" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/2n3tbV" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/DevTown%20Backend%20Web%20Development%20using%20JavaScript%2C%20Node.js%20and%20Express.png" alt="DEVTOWN CERTIFICATE of Backend Web Development using JavaScript, Node.js & Express" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/13NJJz" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Google%20Hands-on%20Cloud%20Computing%20with%20AWS.png" alt="GOOGLE CERTIFICATE of Hands-on Cloud Computing with AWS" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/24zuvz" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Google%20Tinder%20Clone%20using%20HTML%20%26%20CSS.png" alt="GOOGLE CERTIFICATE of Tinder Clone using HTML & CSS" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/HVhJL" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/DevTown%20Hands-on%20Cloud%20Computing%20with%20AWS.png" alt="DEVTOWN CERTIFICATE of Hands-on Cloud Computing with AWS" width="240" height="180" border="10" /></a>
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/JennerMaxim) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/kagheni-maximillien-b11051251/)
+<hr></hr>
 
-<a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a> <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a>
+- ### My GitHub Trophies
+  [![trophy](https://github-profile-trophy.vercel.app/?username=jennermaxim&theme=discord_old_blurple)](https://github.com/ryo-ma/github-profile-trophy)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=JennerMaxim)](https://github.com/ryo-ma/github-profile-trophy)
+- ### Most Used Language
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jennermaxim&theme=discord_old_blurple)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JennerMaxim)](https://github.com/anuraghazra/github-readme-stats)
+- ### Most Used Language by Repo (used in most repos)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jennermaxim&theme=discord_old_blurple)
+  
+- ### Most Used Language by Commit (most committed)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jennermaxim&theme=discord_old_blurple)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=JennerMaxim&show_icons=true)
+- ### GitHub Metrics
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jennermaxim&theme=discord_old_blurple)
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim&theme=discord_old_blurple&utcOffset=3)
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=JennerMaxim)
+- ### GitHub Streak Statistics
+  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=jennermaxim&theme=discord_old_blurple)](https://git.io/streak-stats)
 
-![GitHub metrics](https://metrics.lecoq.io/JennerMaxim)
-
-![GitHub streak stats](https://streak-stats.demolab.com/?user=JennerMaxim)
