@@ -22,7 +22,7 @@ import WordPress from "../assets/wordpress.png";
 const Skills = () => {
     const skills = [
         { img: HTMLCSS, title: "HTML & CSS", level: 100 },
-        { img: JS, title: "JavaScript", level: 90 },
+        { img: JS, title: "JavaScript", level: 100 },
         { img: ReactJS, title: "React.js", level: 70 },
         { img: PHP, title: "PHP", level: 100 },
         { img: MySQL, title: "MySQL", level: 100 },
