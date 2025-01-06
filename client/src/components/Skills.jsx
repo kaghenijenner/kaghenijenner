@@ -18,6 +18,7 @@ import Angular from "../assets/angular.png";
 import Nextjs from "../assets/nextjs.jpg";
 import TypeScript from "../assets/typescript.png";
 import WordPress from "../assets/wordpress.png";
+import MongoDB from "../assets/mongodb.svg";
 
 const Skills = () => {
     const skills = [
@@ -39,6 +40,7 @@ const Skills = () => {
         { img: Nextjs, title: "Next.js", level: 70 },
         { img: TypeScript, title: "TypeScript", level: 70 },
         { img: WordPress, title: "WordPress", level: 100 },
+        { img: MongoDB, title: "MongoDB", level: 50 },
     ];
     const sortedSkills = skills.sort((a, b) => b.level - a.level);
     return (
