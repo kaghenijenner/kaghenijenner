@@ -1,5 +1,5 @@
 import "../styles/home.scss";
-import Maxim from "../assets/jennermaxim.JPG";
+import Maxim from "../assets/jennermaxim.png";
 import Skills from "../components/Skills";
 
 const Home = () => {
@@ -7,6 +7,7 @@ const Home = () => {
         <>
             <div className="home">
                 <div className="profile">
+                    <img src={Maxim} alt="Jenner Maxim" />
                     <div className="about-me">
                         <h1>Hi, I'm Jenner Maxim</h1>
                         <h1>
@@ -24,7 +25,6 @@ const Home = () => {
                         </p>
                         <p>Feel free to explore my portfolio, learn more about my skills, and get in touch if you'd like to collaborate on a project!</p>
                     </div>
-                    <img src={Maxim} alt="Jenner Maxim" />
                 </div>
                 <Skills />
             </div>
