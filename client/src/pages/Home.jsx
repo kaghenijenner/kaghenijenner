@@ -1,5 +1,5 @@
 import "../styles/home.scss";
-import Maxim from "../assets/jennermaxim.png";
+import Maxim from "../assets/jennermaxim.JPG";
 import Skills from "../components/Skills";
 
 const Home = () => {
