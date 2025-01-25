@@ -59,5 +59,7 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
   ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim&theme=discord_old_blurple&utcOffset=3)
 
 - ### GitHub Streak Statistics
-  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=jennermaxim&theme=discord_old_blurple)](https://git.io/streak-stats)
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=jennermaxim&theme=dark)](https://git.io/streak-stats)
 
+- ### Github Profile View
+  <p align="left"> <img src="https://komarev.com/ghpvc/?username=jennermaxim&label=Profile%20views&color=0e75b6&style=flat" alt="incredible-phoenix246" /> </p>
