@@ -61,9 +61,5 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
 - ### GitHub Streak Statistics
   [![GitHub Streak](https://streak-stats.demolab.com/?user=jennermaxim&theme=dark)](https://git.io/streak-stats)
 
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=jennermaxim&theme=dark)](https://git.io/streak-stats)
-
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=jennermaxim&theme=dark" alt="GitHub Streak" /></a>
-
 - ### Github Profile View
   <p align="left"> <img src="https://komarev.com/ghpvc/?username=jennermaxim&label=Profile%20views&color=0e75b6&style=flat" alt="incredible-phoenix246" /> </p>
