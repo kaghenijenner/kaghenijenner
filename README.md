@@ -11,14 +11,14 @@ I'm a passionate Software Engineer with expertise in building scalable, efficien
 
 Feel free to explore my portfolio, learn more about my skills, and get in touch if you'd like to collaborate on a project!
 
-Skills: HTML / CSS / JAVASCRIPT / JQUERY / AJAX / REACT.JS / NODE.JS / PHP / PYTHON / MySQL / FIREBASE / WordPress / NETWORKING / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER
+Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / NEXTJS / HTML / CSS / PHP / MySQL / FIREBASE / WordPress / BASIC NETWORK CONFIGURATION AND MANAGEMENT / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER / KALI LINUX
 
-- 🔭 I’m currently working on this project: https://jennermaxim.nelify.app/
-- 🌱 I’m currently learning Node.js, Python (Back-end).
+- 🔭 I’m currently working on private project
+- 🌱 I learn something new everyday.
 - 👯 I’m looking to collaborate on Open Source project
 - 📫 How to reach me: +256740639860 | jennersi1remaxim@gmail.com
 
-## Examples of My Work
+## Some of my Work
 
 <a href="https://jennermaxim.netlify.app/" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="180" border="10" /></a> |
 <a href="https://maxim-chat-app.netlify.app" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/ChatApp" alt="Chat Application" width="240" height="180" border="10" /></a> |
@@ -36,7 +36,7 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
 <a href="https://www.youtube.com/watch?v=tWyk0lP-q1c" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" alt="WEBSITE DESIGN" width="240" height="180" border="10" /></a> |
 <a href="https://timer-maxim.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/timer.png" alt="TIMER" width="240" height="180" border="10" /></a>
 
-## Certificate
+## Some of my Certificates
 
 <a href="https://www.typing.com/student/verify#267555799-143290874" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Advanced%20Assessment.png" alt="TYPING CERTIFICATE" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/1OMbY5" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/Google%20Learn%20DevOps%20for%20Web%20Development.png" alt="CERTIFICATE of DevOps for Web Development" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/1UuGJB" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/Google%20JavaScript%20%26%20React.js.png" alt="CERTIFICATE of JavaScript & React.js" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/2lPUQu" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/DevTown%20Tinder%20Clone%20using%20HTML%20%26%20CSSL.png" alt="CERTIFICATE of Tinder Clone using HTML & CSS" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/geks9" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Microsoft%20Tinder%20Clone%20using%20HTML%20%26%20CSS.png" alt="MICROSOFT CERTIFICATE of Tinder Clone using HTML & CSS" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/Z13U6P7" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Microsoft%20JavaScript%20%26%20React.js.png" alt="MICROSOFT CERTIFICATE of JavaScript & React.js" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/2n3tbV" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/DevTown%20Backend%20Web%20Development%20using%20JavaScript%2C%20Node.js%20and%20Express.png" alt="DEVTOWN CERTIFICATE of Backend Web Development using JavaScript, Node.js & Express" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/13NJJz" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Google%20Hands-on%20Cloud%20Computing%20with%20AWS.png" alt="GOOGLE CERTIFICATE of Hands-on Cloud Computing with AWS" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/24zuvz" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Google%20Tinder%20Clone%20using%20HTML%20%26%20CSS.png" alt="GOOGLE CERTIFICATE of Tinder Clone using HTML & CSS" width="240" height="180" border="10" /></a> | <a href="https://cert.devtown.in/verify/HVhJL" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/DevTown%20Hands-on%20Cloud%20Computing%20with%20AWS.png" alt="DEVTOWN CERTIFICATE of Hands-on Cloud Computing with AWS" width="240" height="180" border="10" /></a>
 
