@@ -93,7 +93,7 @@ const Header = () => {
                     </div>
                     <div className="right-nav">
                         <a href="#">About Me</a>
-                        <a href="#">My Projects</a>
+                        <NavLink to="/projects">My Projects</NavLink>
                         <a href="#">Contact Me</a>
                         <NavLink to="/resume">Resume</NavLink>
                     </div>
