@@ -82,11 +82,9 @@ const Header = () => {
                 <div className="header">
                     <div className="logo">
                         <img src={Maxim} alt="Jenner Maxim" />
-                        <a href="#">
-                            <Link to="/">
-                                <h1>Jenner Maxim</h1>
-                            </Link>
-                        </a>
+                        <Link to="/">
+                            <h1>Jenner Maxim</h1>
+                        </Link>
                     </div>
                     <div className="search">
                         <input type="search" name="" id="" placeholder="Search" />

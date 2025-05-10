@@ -3,6 +3,7 @@ import eDoc from "../assets/edoc.jpg";
 import chatApp from "../assets/chatApp.png";
 import salonHub from '../assets/salonhub.png';
 import cavendishCanteen from "../assets/cavendish-canteen.jpeg";
+import { Link } from 'react-router-dom';
 
 const projects = [
     {
@@ -51,16 +52,14 @@ const Project = () => {
                         />
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>
-                        <a
-                            href={project.link}
+                        <Link
+                        className='link'
+                            to={project.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{
-                                
-                            }}
                         >
                             View Project
-                        </a>
+                        </Link>
                     </div>
                 ))}
             </div>
