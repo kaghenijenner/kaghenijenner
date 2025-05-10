@@ -37,29 +37,17 @@ const projects = [
 
 const Project = () => {
     return (
-        <div style={{ padding: '20px' }}>
+        <div className='projects'>
             <h1>My Projects</h1>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
+            <div className='cards'>
                 {projects.map((project) => (
                     <div
                         key={project.id}
-                        style={{
-                            border: '1px solid #ccc',
-                            borderRadius: '8px',
-                            padding: '16px',
-                            width: '300px',
-                        }}
+                        className='card'
                     >
                         <img
                             src={project.image}
                             alt={project.title}
-                            style={{
-                                width: '100%',
-                                height: '200px',
-                                objectFit: 'cover',
-                                borderRadius: '4px',
-                                marginBottom: '12px'
-                            }}
                         />
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>
@@ -67,7 +55,9 @@ const Project = () => {
                             href={project.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{ color: 'blue', textDecoration: 'none' }}
+                            style={{
+                                
+                            }}
                         >
                             View Project
                         </a>
