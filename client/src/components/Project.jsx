@@ -6,54 +6,62 @@ import cavendishCanteen from "../assets/cavendish-canteen.jpeg";
 import ChatAppInterface from "../assets/doccure.jpeg";
 import MovieLand from "../assets/movieland.png";
 import Birthday from "../assets/happy-birthday.avif";
+import Gown from "../assets/gown.jpg";
 
 import { Link } from 'react-router-dom';
 
 const projects = [
     {
         id: 1,
+        title: 'Gown Management System – Elegance Organized',
+        description: 'A sophisticated web application designed to streamline the inventory, rental, and tracking of formal gowns for boutiques, bridal shops, or event planners. This system simplifies gown management with intuitive tools for both staff and customers.',
+        link: 'https://gown-management.vercel.app/',
+        image: Gown,
+    },
+    {
+        id: 2,
         title: 'Doctor Appointment System',
         description: 'This system allows patients to easily schedule, reschedule, or cancel appointments with healthcare providers, while offering doctors an efficient way to manage their schedules.',
         link: 'https://doc.automendy.com/',
         image: eDoc,
     },
     {
-        id: 2,
+        id: 3,
         title: 'Real-Time Chat Application',
         description: 'A dynamic, full-stack messaging platform enabling seamless real-time communication between users. Designed with modern web technologies, this app replicates core features of popular chat services while prioritizing speed, security, and simplicity.',
         link: 'https://maxim-chat-app.netlify.app/login',
         image: chatApp
     },
     {
-        id: 3,
+        id: 4,
         title: 'SalonHub',
         description: 'A modern, user-friendly web application designed to simplify salon and barbershop bookings in Uganda. SalonHub connects customers with top-rated beauty professionals, enabling seamless appointment scheduling, service discovery, and business management.',
         link: 'https://salonhubuganda.netlify.app/',
         image: salonHub
     },
     {
-        id: 4,
+        id: 5,
         title: 'Cavendish Canteen – Campus Food Ordering System',
         description: 'A digital canteen solution designed to streamline food ordering for students and staff. This platform offers a hassle-free way to browse menus, and place orders from a smartphone or computer.',
         link: 'https://cavendish-canteen.netlify.app/',
         image: cavendishCanteen
     },
     {
-        id: 5,
+        id: 6,
         title: 'Modern Chat App Interface (UI/UX Demo)',
         description: 'A clean, interactive frontend prototype for a real-time messaging application, designed with a focus on intuitive user experience and visual appeal. This interface showcases core chat functionalities with a polished, responsive layout.',
         link: 'https://maximdoccure.netlify.app/',
         image: ChatAppInterface
     },
     {
-        id: 6,
+        id: 7,
         title: 'MovieLand – Discover & Explore Films',
         description: 'A dynamic movie browsing web app that lets users explore trending, upcoming, and classic films with ease. Powered by the TMDB API, MovieLand delivers a seamless cinematic experience with rich details and intuitive navigation.',
         link: 'https://maximmovieland.netlify.app/',
         image: MovieLand
     },
     {
-        id: 7,
+        id: 8,
         title: 'JavaScript Birthday Wisher',
         description: 'A delightful web app that creates personalized birthday celebrations in the browser! This interactive experience combines animations, music, and custom messages to deliver unforgettable digital birthday wishes.',
         link: 'https://happy-birthday-doo-wan.netlify.app/',

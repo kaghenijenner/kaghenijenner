@@ -62,7 +62,7 @@ const Header = () => {
                                 <img src={Instagram} alt="Instagram" />
                             </a>
                             <a
-                                href="https://wa.me/+256740639860"
+                                href="https://wa.me/+256784305644"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
