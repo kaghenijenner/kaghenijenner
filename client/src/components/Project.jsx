@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 const projects = [
     {
         id: 1,
-        title: 'Gown Management System – Elegance Organized',
+        title: 'Gown Management System',
         description: 'A sophisticated web application designed to streamline the inventory, rental, and tracking of formal gowns for boutiques, bridal shops, or event planners. This system simplifies gown management with intuitive tools for both staff and customers.',
         link: 'https://gown-management.vercel.app/',
         image: Gown,
