@@ -11,7 +11,7 @@ I'm a passionate Software Engineer with expertise in building scalable, efficien
 
 Feel free to explore my portfolio, learn more about my skills, and get in touch if you'd like to collaborate on a project!
 
-Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / NEXTJS / HTML / CSS / PHP / MySQL / FIREBASE / WordPress / BASIC NETWORK CONFIGURATION AND MANAGEMENT / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER / KALI LINUX
+Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / NEXTJS / NODEJS / HTML / CSS / PHP / MySQL / FIREBASE / WordPress / BASIC NETWORK CONFIGURATION AND MANAGEMENT / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER / KALI LINUX
 
 - 🔭 I’m currently working on private project
 - 🌱 I learn something new everyday.
