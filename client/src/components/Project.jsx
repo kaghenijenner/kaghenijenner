@@ -1,4 +1,3 @@
-import React from 'react';
 import eDoc from "../assets/edoc.jpg";
 import chatApp from "../assets/chatApp.png";
 import salonHub from '../assets/salonhub.png';
@@ -8,6 +7,7 @@ import MovieLand from "../assets/movieland.png";
 import Birthday from "../assets/happy-birthday.avif";
 import Gown from "../assets/gown.jpg";
 import FaceRecognition from "../assets/facerecognition.png";
+import ReposCeleste from "../assets/reposceleste.jpg";
 
 import { Link } from 'react-router-dom';
 
@@ -75,6 +75,13 @@ const projects = [
         link: 'https://happy-birthday-doo-wan.netlify.app/',
         image: Birthday
     },
+    {
+        id: 10,
+        title: 'Repos Céleste',
+        description: 'A web app for Repos Céleste, a platform that allows users to access the details of their dead loved ones. This application provides a respectful and user-friendly interface for managing and honoring the memories of those who have passed away.',
+        link: 'https://reposceleste.netlify.app/',
+        image: ReposCeleste
+    },
 ];
 
 const Project = () => {
@@ -94,7 +101,7 @@ const Project = () => {
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>
                         <Link
-                        className='link'
+                            className='link'
                             to={project.link}
                             target="_blank"
                             rel="noopener noreferrer"

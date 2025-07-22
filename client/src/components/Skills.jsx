@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/skills.scss";
 import HTMLCSS from "../assets/htmlcss.jpeg";
 import MySQL from "../assets/mysql.png";
