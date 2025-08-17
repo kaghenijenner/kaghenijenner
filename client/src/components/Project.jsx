@@ -8,6 +8,7 @@ import Birthday from "../assets/happy-birthday.avif";
 import Gown from "../assets/gown.jpg";
 import FaceRecognition from "../assets/facerecognition.png";
 import ReposCeleste from "../assets/reposceleste.jpg";
+import WasteManagement from "../assets/wastemanagement.png";
 
 import { Link } from 'react-router-dom';
 
@@ -82,6 +83,13 @@ const projects = [
         link: 'https://reposceleste.netlify.app/',
         image: ReposCeleste
     },
+    {
+        id: 11,
+        title: 'Waste Management Robot',
+        description: 'An innovative robotic solution designed to automate waste collection and sorting in urban environments. This project aims to enhance recycling efforts and reduce human labor in waste management.',
+        link: 'https://youtu.be/m3AqkR7lW1I',
+        image: WasteManagement
+    }
 ];
 
 const Project = () => {
