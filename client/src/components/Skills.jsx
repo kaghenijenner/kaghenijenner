@@ -18,12 +18,14 @@ import Nextjs from "../assets/nextjs.jpg";
 import TypeScript from "../assets/typescript.png";
 import WordPress from "../assets/wordpress.png";
 import MongoDB from "../assets/mongodb.svg";
+import ReactNative from "../assets/reactnative.png";
 
 const Skills = () => {
     const skills = [
         { img: JS, title: "JavaScript", level: 100 },
         { img: TypeScript, title: "TypeScript", level: 80 },
         { img: ReactJS, title: "React.js", level: 100 },
+        { img: ReactNative, title: "React Native", level: 85 },
         { img: Nextjs, title: "Next.js", level: 90 },
         { img: Node, title: "Node.js", level: 70 },
         { img: MongoDB, title: "MongoDB", level: 90 },
@@ -33,11 +35,11 @@ const Skills = () => {
         { img: PHP, title: "PHP", level: 100 },
         { img: MySQL, title: "MySQL", level: 100 },
         { img: Firebase, title: "Firebase", level: 80 },
-        { img: Python, title: "Python", level: 50 },
+        { img: Python, title: "Python", level: 80 },
         { img: PhotoShop, title: "PhotoShop", level: 90 },
         { img: Blender, title: "Blender", level: 80 },
         { img: Flutter, title: "Flutter", level: 60 },
-        { img: Linux, title: "Kali Linux", level: 100 },
+        { img: Linux, title: "Linux", level: 100 },
         { img: Angular, title: "Angular.js", level: 50 },
         { img: WordPress, title: "WordPress", level: 100 },
     ];

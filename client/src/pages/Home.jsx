@@ -1,13 +1,14 @@
 import "../styles/home.scss";
 import Maxim from "../assets/jennermaxim.png";
 import Skills from "../components/Skills";
+import GitHubStats from "../components/GitHubStats";
 
 const Home = () => {
     return (
         <>
             <div className="home">
                 <div className="profile">
-                    <img src={Maxim} alt="Jenner Maxim" />
+                    <img src={Maxim} alt="Jenner Maxim - Software Engineer" />
                     <div className="about-me">
                         <h1>Hi, I&apos;m Jenner Maxim</h1>
                         <h1>
@@ -27,6 +28,7 @@ const Home = () => {
                     </div>
                 </div>
                 <Skills />
+                <GitHubStats />
             </div>
         </>
     );

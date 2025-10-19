@@ -37,6 +37,8 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
+    gap: 40px;
+    padding: 20px;
 
     @include maxtablet {
       flex-direction: column;
@@ -44,20 +46,52 @@
     }
 
     img {
-      border-radius: 0 0 30px 0;
-      width: 70%;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      min-width: 300px;
+      flex-shrink: 0;
+      object-fit: cover;
+      display: block;
+      margin: 50px 0 50px 80px;
+      box-shadow: 0 20px 60px rgba(100, 108, 255, 0.4),
+        0 10px 30px rgba(0, 0, 0, 0.5);
+      border: 4px solid transparent;
+      background: linear-gradient(#242424, #242424) padding-box,
+        linear-gradient(135deg, #646cff, #535bf2, #7c3aed) border-box;
+      transition: all 0.5s ease;
+      position: relative;
+
+      &:hover {
+        transform: scale(1.02) translateY(-5px);
+        box-shadow: 0 30px 80px rgba(100, 108, 255, 0.6),
+          0 15px 40px rgba(0, 0, 0, 0.6);
+        filter: brightness(1.1);
+      }
 
       @include laptop {
-        width: 100%;
+        max-width: 450px;
+        min-width: 280px;
       }
 
       @include maxtablet {
+        max-width: 600px;
+        min-width: auto;
         width: 80%;
-        border-radius: 0 0 30px 30px;
+        border-radius: 20px;
+        box-shadow: 0 15px 40px rgba(100, 108, 255, 0.3),
+          0 8px 20px rgba(0, 0, 0, 0.4);
       }
 
       @include mobile {
+        max-width: 100%;
+        min-width: auto;
         width: 100%;
+        border-radius: 15px;
+        margin: 0;
+        box-shadow: 0 10px 30px rgba(100, 108, 255, 0.3),
+          0 5px 15px rgba(0, 0, 0, 0.4);
       }
     }
 
@@ -119,44 +153,60 @@
 
         @keyframes skills {
           0%,
-          10% {
+          7% {
             content: "HTML + CSS";
           }
-          11%,
-          20% {
+          8%,
+          14% {
             content: "JavaScript";
           }
-          21%,
-          30% {
+          15%,
+          21% {
             content: "React";
           }
-          31%,
-          40% {
+          22%,
+          28% {
+            content: "React Native";
+          }
+          29%,
+          35% {
+            content: "Node.js";
+          }
+          36%,
+          42% {
+            content: "Next.js";
+          }
+          43%,
+          49% {
             content: "PHP + MySQL";
           }
-          41%,
-          50% {
+          50%,
+          56% {
+            content: "MongoDB";
+          }
+          57%,
+          63% {
             content: "Firebase";
           }
-          51%,
-          60% {
+          64%,
+          70% {
             content: "WordPress";
           }
-          61%,
-          70% {
+          71%,
+          77% {
             content: "Blender";
           }
-          71%,
-          80% {
+          78%,
+          84% {
             content: "Photoshop";
           }
-          81%,
-          90% {
+          85%,
+          91% {
             content: "Computer Repair";
           }
-          91%,
+          92%,
           100% {
-            content: "Graphic Design";
+            content: "Python";
           }
         }
       }
@@ -169,24 +219,12 @@
 
       @keyframes words {
         0%,
-        20% {
-          content: "Software Developer";
+        50% {
+          content: "Software Engineer";
         }
-        21%,
-        40% {
-          content: "Front-end Developer";
-        }
-        41%,
-        60% {
-          content: "Backend Developer";
-        }
-        61%,
-        80% {
-          content: "Web Developer";
-        }
-        81%,
+        51%,
         100% {
-          content: "Network Engineer";
+          content: "Full Stack Developer";
         }
       }
 
