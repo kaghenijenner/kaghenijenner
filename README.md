@@ -11,16 +11,17 @@ I'm a passionate Software Engineer with expertise in building scalable, efficien
 
 Feel free to explore my portfolio, learn more about my skills, and get in touch if you'd like to collaborate on a project!
 
-Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / NEXTJS / NODEJS / HTML / CSS / PHP / MySQL / FIREBASE / WordPress / BASIC NETWORK CONFIGURATION AND MANAGEMENT / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER / KALI LINUX
+Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXTJS / NODEJS / PYTHON / HTML / CSS / PHP / MySQL / FIREBASE / MONGODB / WordPress / BASIC NETWORK CONFIGURATION AND MANAGEMENT / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER / LINUX
 
-- 🔭 I’m currently working on private project
-- 🌱 I learn something new everyday.
-- 👯 I’m looking to collaborate on Open Source project
+- 🔭 I’m currently working on a private project
+- 🌱 I learn something new every day.
+- 👯 I’m looking to collaborate on Open open-source project
 - 📫 How to reach me: +256740639860 | jennersi1remaxim@gmail.com
 
 ## Some of my Work
 
-<a href="https://jennermaxim.netlify.app/" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="180" border="10" /></a> |
+<a href="https://financialfreedom.capital/signup?code=REFD2F986C1" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/financialfreedom.jpeg" alt="Financial Freedom" width="240" height="240" border="10" /></a> |
+<a href="https://jennermaxim.netlify.app/" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="240" border="10" /></a> |
 <a href="https://maxim-chat-app.netlify.app" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/ChatApp" alt="Chat Application" width="240" height="180" border="10" /></a> |
 <a href="https://salonhubuganda.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/salonhub.png" alt="SalonHub Uganda Ltd" width="240" height="180" border="10" /></a> |
 <a href="https://food.automendy.com/" target="_blank"><img src="Online-food-ordering-system.jpg" alt="Food Ordering System" width="240" height="180" border="10" /></a> |
