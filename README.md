@@ -20,6 +20,7 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 
 ## Some of my Work
 
+<a href="https://jennermaximillien.streamlit.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/financialfreedom.jpeg" alt="AI Powered Learning Platform" width="240" height="240" border="10" /></a> |
 <a href="https://financialfreedom.capital/signup?code=REFD2F986C1" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/financialfreedom.jpeg" alt="Financial Freedom" width="240" height="240" border="10" /></a> |
 <a href="https://jennermaxim.netlify.app/" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="240" border="10" /></a> |
 <a href="https://maxim-chat-app.netlify.app" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/ChatApp" alt="Chat Application" width="240" height="180" border="10" /></a> |
