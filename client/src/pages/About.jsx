@@ -57,6 +57,13 @@ const About = () => {
               </p>
             </div>
             <div className="service-card">
+              <h3>AI & Machine Learning</h3>
+              <p>
+                Developing intelligent systems and integrating AI/ML solutions
+                into applications for enhanced functionality.
+              </p>
+            </div>
+            <div className="service-card">
               <h3>Technical Solutions</h3>
               <p>
                 Network configuration, system administration, and computer
