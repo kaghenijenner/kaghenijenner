@@ -15,7 +15,7 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 
 - 🔭 I’m currently working on a private project
 - 🌱 I learn something new every day.
-- 👯 I’m looking to collaborate on Open open-source project
+- 👯 I’m looking to collaborate on an open-source project
 - 📫 How to reach me: +256740639860 | jennersi1remaxim@gmail.com
 
 ## Some of my Work
