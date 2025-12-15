@@ -29,9 +29,9 @@ const projects = [
     title: "ACE Business Intelligence",
     description:
       "ACE Business Intelligence transforms how you run events, from guest registration and QR check-in to live dashboards and personalised WhatsApp messages. Everything in one platform.",
-    link: "https://presidential.sistersbridalug.com/",
+    link: "https://acebii.com/",
     image: "/projects/ace.svg",
-    tags: ["PHP", "MySQL", "API"],
+    tags: ["Next.js", "MySQL", "API"],
     category: "Web",
   },
   {
@@ -96,13 +96,13 @@ const projects = [
   },
   {
     id: 9,
-    title: "Doctor Appointment System",
+    title: "Browser Music Sidebar",
     description:
-      "Patients schedule, reschedule, or cancel appointments. Doctors manage their schedules efficiently.",
-    link: "https://doc.automendy.com/",
-    image: "/projects/edoc.jpg",
-    tags: ["PHP", "MySQL"],
-    category: "Web",
+      "A vscode extension that provides a sidebar for music streaming, allowing users to listen to music while coding",
+    link: "https://marketplace.visualstudio.com/items?itemName=kaghenijenner.browser-music-sidebar",
+    image: "/projects/browsermusicsidebar.png",
+    tags: ["Node.js", "PowerShell", "TypeScript"],
+    category: "VS Code Extension",
   },
   {
     id: 10,
@@ -196,7 +196,7 @@ const projects = [
   },
 ];
 
-const FILTERS = ["All", "Mobile", "Web", "AI", "Hardware"];
+const FILTERS = ["All", "Mobile", "Web", "AI", "Hardware", "VS Code Extension"];
 
 const ProjectCard = ({ project, inView, index }) => (
   <article
