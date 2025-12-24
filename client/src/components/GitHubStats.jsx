@@ -1,7 +1,7 @@
 import "../styles/githubstats.scss";
 
 const GitHubStats = () => {
-    const username = "jennermaxim";
+    const username = "kaghenijenner";
     const theme = "discord_old_blurple";
 
     return (

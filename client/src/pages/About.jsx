@@ -8,7 +8,7 @@ const About = () => {
         <img src={Maxim} alt="Jenner Maxim" />
         <div className="intro">
           <h1>About Me</h1>
-          <h2>Jenner Maxim</h2>
+          <h2>Kagheni Jenner</h2>
           <p className="subtitle">
             Software Engineer | Full Stack Developer | Tech Enthusiast
           </p>

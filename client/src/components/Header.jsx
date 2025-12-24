@@ -79,9 +79,9 @@ const Header = () => {
         </div>
         <div className="header">
           <div className="logo">
-            <img src={Maxim} alt="Jenner Maxim" />
+            <img src={Maxim} alt="Kagheni Jenner" />
             <Link to="/">
-              <h1>Jenner Maxim</h1>
+              <h1>Kagheni Jenner</h1>
             </Link>
           </div>
           <div className="search">
