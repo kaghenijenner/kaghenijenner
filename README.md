@@ -1,27 +1,29 @@
-# Jenner Maxim
+# Kagheni Jenner
 
 - ### GitHub Statistics
-  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jennermaxim&theme=discord_old_blurple&show_icons=true)
+  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=kaghenijenner&theme=discord_old_blurple&show_icons=true)
 
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jennermaxim&theme=discord_old_blurple) 
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaghenijenner&theme=discord_old_blurple) 
  
-### My name is Jenner Maxim
+### My name is Kagheni Jenner
 ### I'm a Software Engineer
-I'm a passionate Software Engineer with expertise in building scalable, efficient, and user-friendly applications. With a deep understanding of various programming languages and a knack for solving complex problems, I strive to deliver high-quality software solutions that meet and exceed client expectations.
+I'm a passionate Software Engineer with expertise in building scalable, efficient, and user-friendly applications. With a deep understanding of multiple programming languages and a knack for solving complex problems, I strive to deliver high-quality software solutions that exceed client expectations.
 
-Feel free to explore my portfolio, learn more about my skills, and get in touch if you'd like to collaborate on a project!
+Feel free to explore my portfolio, learn more about my skills, and get in touch if you're interested in collaborating on a project.
 
 Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXTJS / NODEJS / PYTHON / HTML / CSS / PHP / MySQL / FIREBASE / MONGODB / WordPress / BASIC NETWORK CONFIGURATION AND MANAGEMENT / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER / LINUX
 
 - 🔭 I’m currently working on a private project
 - 🌱 I learn something new every day.
-- 👯 I’m looking to collaborate on Open open-source project
-- 📫 How to reach me: +256740639860 | jennersi1remaxim@gmail.com
+- 👯 I’m looking to collaborate on an open-source project
+- 📫 How to reach me: <a href="tel:+256740639860">Call Me on +256740639860</a> | <a href="mailto:jennersi1remaxim@gmail.com">Email Me</a>
 
 ## Some of my Work
 
-<a href="https://financialfreedom.capital/signup?code=REFD2F986C1" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/financialfreedom.jpeg" alt="Financial Freedom" width="240" height="240" border="10" /></a> |
-<a href="https://jennermaxim.netlify.app/" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="240" border="10" /></a> |
+<a href="https://jennermaximillien.streamlit.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/client/src/assets/aipoweredplatform.png" alt="AI Powered Learning Platform" width="240" height="240" border="10" /></a> |
+<a href="https://financialfreedom.capital/signup?code=REFD2F986C1" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/financialfreedom.jpeg" alt="Financial Freedom" width="240" height="160" border="10" /></a> |
+<a href="https://journals.cavendish.ac.ug/index.php/cjst/article/view/12" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/client/src/assets/facerecognition.png" alt="Face Recognition Attendance System" width="240" height="240" border="10" /></a> |
+<a href="https://jennermaxim.com" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="200" border="10" /></a> |
 <a href="https://maxim-chat-app.netlify.app" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/ChatApp" alt="Chat Application" width="240" height="180" border="10" /></a> |
 <a href="https://salonhubuganda.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/salonhub.png" alt="SalonHub Uganda Ltd" width="240" height="180" border="10" /></a> |
 <a href="https://food.automendy.com/" target="_blank"><img src="Online-food-ordering-system.jpg" alt="Food Ordering System" width="240" height="180" border="10" /></a> |
@@ -44,23 +46,23 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
 <hr></hr>
 
 - ### My GitHub Trophies
-  [![trophy](https://github-profile-trophy.vercel.app/?username=jennermaxim&theme=discord_old_blurple)](https://github.com/ryo-ma/github-profile-trophy)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=kaghenijenner&theme=discord_old_blurple)](https://github.com/ryo-ma/github-profile-trophy)
 
 - ### Most Used Language
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jennermaxim&theme=discord_old_blurple)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaghenijenner&theme=discord_old_blurple)
 
 - ### Most Used Language by Repo (used in most repos)
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jennermaxim&theme=discord_old_blurple)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaghenijenner&theme=discord_old_blurple)
   
 - ### Most Used Language by Commit (most committed)
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jennermaxim&theme=discord_old_blurple)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaghenijenner&theme=discord_old_blurple)
 
 - ### GitHub Metrics
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jennermaxim&theme=discord_old_blurple)
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jennermaxim&theme=discord_old_blurple&utcOffset=3)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaghenijenner&theme=discord_old_blurple)
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaghenijenner&theme=discord_old_blurple&utcOffset=3)
 
 - ### GitHub Streak Statistics
-  [![GitHub Streak](https://streak-stats.demolab.com/?user=jennermaxim&theme=dark)](https://git.io/streak-stats)
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=kaghenijenner&theme=dark)](https://git.io/streak-stats)
 
 - ### Github Profile View
-  <p align="left"> <img src="https://komarev.com/ghpvc/?username=jennermaxim&label=Profile%20views&color=0e75b6&style=flat" alt="incredible-phoenix246" /> </p>
+  <p align="left"> <img src="https://komarev.com/ghpvc/?username=kaghenijenner&label=Profile%20views&color=0e75b6&style=flat" alt="incredible-phoenix246" /> </p>
