@@ -28,7 +28,7 @@ const projects = [
     title: "Financial Freedom App",
     description:
       "A web application that helps users to deposit cryptocurrencies, earn profitable returns, and withdraw your funds securely.",
-    link: "https://financialfreedom.capital/signup?code=REFD2F986C1",
+    link: "https://financialfreedom.capital/",
     image: FinancialFreedom,
   },
   {
