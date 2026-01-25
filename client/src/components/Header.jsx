@@ -32,14 +32,14 @@ const Header = () => {
             </div>
             <div className="social-media">
               <a
-                href="http://github.com/jennermaxim"
+                href="http://github.com/kaghenijenner"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={GitHub} alt="GitHub" />
               </a>
               <a
-                href="https://www.linkedin.com/in/jenner-maxim-b11051251"
+                href="https://www.linkedin.com/in/kagheni-jenner-b11051251"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -71,7 +71,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Telegram} alt="Whatsapp" />
+                <img src={Telegram} alt="Telegram" />
               </a>
             </div>
           </div>
