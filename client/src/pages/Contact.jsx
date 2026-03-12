@@ -28,7 +28,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Create mailto link with form data
-    const mailtoLink = `mailto:jennermaximbusiness@gmail.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:ceo@jennermaxim.com?subject=${encodeURIComponent(
       formData.subject
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
@@ -96,7 +96,7 @@ const Contact = () => {
                 <img src={LinkedIn} alt="LinkedIn" />
               </a>
               <a
-                href="https://x.com/maximjenner"
+                href="https://x.com/kaghenijenner"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="X (Twitter)"
@@ -120,7 +120,7 @@ const Contact = () => {
                 <img src={Whatsapp} alt="WhatsApp" />
               </a>
               <a
-                href="https://t.me/jennermaxim"
+                href="https://t.me/kaghenijenner"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Telegram"
