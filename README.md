@@ -46,7 +46,7 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
 <hr></hr>
 
 - ### My GitHub Trophies
-  https://github-profile-trophy-kannan.vercel.app/?username=kaghenijenner&theme=onedark
+  ![](https://github-profile-trophy-kannan.vercel.app/?username=kaghenijenner&theme=onedark)
   
 ![](https://raw.githubusercontent.com/kaghenijenner/github-stats/master/generated/overview.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/kaghenijenner/github-stats/master/generated/overview.svg#gh-light-mode-only)
