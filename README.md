@@ -70,7 +70,7 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
   [![GitHub Streak](https://streak-stats.demolab.com/?user=kaghenijenner&theme=dark)](https://git.io/streak-stats)
 
 - ### Random Dev Quote
-  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark)
+  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 - ### Github Profile View
   <p align="left"> <img src="https://komarev.com/ghpvc/?username=kaghenijenner&label=Profile%20views&color=0e75b6&style=flat" alt="incredible-phoenix246" /> </p>
