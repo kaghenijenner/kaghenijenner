@@ -47,11 +47,6 @@ alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
 
 - ### My GitHub Trophies
   ![](https://github-profile-trophy-kannan.vercel.app/?username=kaghenijenner&theme=onedark)
-  
-![](https://raw.githubusercontent.com/kaghenijenner/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/kaghenijenner/github-stats/master/generated/overview.svg#gh-light-mode-only)
-![](https://raw.githubusercontent.com/kaghenijenner/github-stats/master/generated/languages.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/kaghenijenner/github-stats/master/generated/languages.svg#gh-light-mode-only)
 
 - ### Most Used Language
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaghenijenner&theme=discord_old_blurple)
