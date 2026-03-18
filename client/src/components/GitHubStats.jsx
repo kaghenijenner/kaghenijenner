@@ -38,7 +38,7 @@ const GitHubStats = () => {
 
                 <div className="stat-card trophy">
                     <img
-                        src={`https://github-profile-trophy.vercel.app/?username=${username}&theme=${theme}&row=2&column=3&margin-w=15&margin-h=15`}
+                        src={`https://github-profile-trophy-kannan.vercel.app/?username=${username}&theme=onedark`}
                         alt="GitHub Trophies"
                     />
                 </div>
