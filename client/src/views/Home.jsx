@@ -30,7 +30,7 @@ const useCounter = (target, active, duration = 2000) => {
 };
 
 const stats = [
-  { value: 16, suffix: "+", label: "Projects Delivered" },
+  { value: 19, suffix: "+", label: "Projects Delivered" },
   { value: 20, suffix: "+", label: "Technologies Mastered" },
   { value: 5, suffix: "+", label: "Years of Experience" },
   { value: 100, suffix: "%", label: "Dedication" },

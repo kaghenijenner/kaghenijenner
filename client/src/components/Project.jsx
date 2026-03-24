@@ -26,6 +26,16 @@ const projects = [
   },
   {
     id: 2,
+    title: "ACE Business Intelligence",
+    description:
+      "ACE Business Intelligence transforms how you run events, from guest registration and QR check-in to live dashboards and personalised WhatsApp messages. Everything in one platform.",
+    link: "https://presidential.sistersbridalug.com/",
+    image: "/projects/ace.svg",
+    tags: ["PHP", "MySQL", "API"],
+    category: "Web",
+  },
+  {
+    id: 3,
     title: "GarageLink",
     description:
       "GarageLink connects drivers in trouble with the nearest verified garages and mobile mechanics with live tracking, chat, and reviews.",
@@ -35,7 +45,7 @@ const projects = [
     category: "Mobile",
   },
   {
-    id: 3,
+    id: 4,
     title: "Akili za Kesho",
     description:
       "A purpose-built multi-tenant platform for African universities and innovation centers to manage every aspect of their operations securely, scalably, and simply.",
@@ -45,7 +55,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 4,
+    id: 5,
     title: "Cavendish Innovation",
     description:
       "Ecosystem for student projects, showcase, collaborate, and manage innovative ideas with intuitive tools.",
@@ -55,7 +65,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 5,
+    id: 6,
     title: "Dime-Order – QR Food Ordering",
     description:
       "Scan a QR code at your table, browse the menu, and place orders without waiting for a server.",
@@ -65,7 +75,7 @@ const projects = [
     category: "Mobile",
   },
   {
-    id: 6,
+    id: 7,
     title: "OnLeave – Leave Management",
     description:
       "Comprehensive employee leave management: request, approve, and track leave applications across organizations.",
@@ -75,7 +85,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 7,
+    id: 8,
     title: "Gown Management System",
     description:
       "Streamlined inventory, rental, and tracking of formal gowns for boutiques and event planners.",
@@ -85,7 +95,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 8,
+    id: 9,
     title: "Doctor Appointment System",
     description:
       "Patients schedule, reschedule, or cancel appointments. Doctors manage their schedules efficiently.",
@@ -95,7 +105,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 9,
+    id: 10,
     title: "Real-Time Chat Application",
     description:
       "Full-stack messaging platform with real-time communication, speed, security, and simplicity.",
@@ -105,7 +115,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 10,
+    id: 11,
     title: "SalonHub – Booking Platform",
     description:
       "Connect with top-rated beauty professionals in Uganda. Seamless appointment scheduling and service discovery.",
@@ -115,7 +125,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 11,
+    id: 12,
     title: "Face Recognition Attendance",
     description:
       "AI-powered attendance system using facial recognition. Published in the Cavendish Journal of Science and Technology.",
@@ -125,7 +135,7 @@ const projects = [
     category: "AI",
   },
   {
-    id: 12,
+    id: 13,
     title: "Cavendish Canteen",
     description:
       "Digital canteen solution: browse menus and place orders from smartphone or computer for campus food.",
@@ -135,7 +145,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 13,
+    id: 14,
     title: "Chat App UI/UX Demo",
     description:
       "Clean, interactive frontend prototype for real-time messaging with focus on intuitive UX and visual appeal.",
@@ -145,7 +155,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 14,
+    id: 15,
     title: "MovieLand – Discover Films",
     description:
       "Dynamic movie browsing app powered by TMDB API. Explore trending, upcoming, and classic films.",
@@ -155,7 +165,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 15,
+    id: 16,
     title: "JavaScript Birthday Wisher",
     description:
       "Interactive web app with animations and music delivering personalized birthday celebrations in the browser.",
@@ -165,7 +175,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 16,
+    id: 17,
     title: "Repos Céleste",
     description:
       "Platform for accessing and honoring memories of loved ones with a respectful, user-friendly interface.",
@@ -175,7 +185,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 17,
+    id: 18,
     title: "Waste Management Robot",
     description:
       "Robotic solution automating waste collection and sorting in urban environments to enhance recycling.",
