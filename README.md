@@ -18,26 +18,7 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 - 👯 I’m looking to collaborate on an open-source project
 - 📫 How to reach me: <a href="tel:+256740639860">Call Me on +256740639860</a> | <a href="mailto:jennersi1remaxim@gmail.com">Email Me</a>
 
-## Some of my Work
-
-<a href="https://jennermaximillien.streamlit.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/client/src/assets/aipoweredplatform.png" alt="AI Powered Learning Platform" width="240" height="240" border="10" /></a> |
-<a href="https://financialfreedom.capital/signup?code=REFD2F986C1" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/financialfreedom.jpeg" alt="Financial Freedom" width="240" height="160" border="10" /></a> |
-<a href="https://journals.cavendish.ac.ug/index.php/cjst/article/view/12" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/client/src/assets/facerecognition.png" alt="Face Recognition Attendance System" width="240" height="240" border="10" /></a> |
-<a href="https://jennermaxim.com" target="_blank"><img src="https://avatars.githubusercontent.com/u/117904654?v=4" alt="Jenner Maxim" width="240" height="200" border="10" /></a> |
-<a href="https://maxim-chat-app.netlify.app" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/ChatApp" alt="Chat Application" width="240" height="180" border="10" /></a> |
-<a href="https://salonhubuganda.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/salonhub.png" alt="SalonHub Uganda Ltd" width="240" height="180" border="10" /></a> |
-<a href="https://food.automendy.com/" target="_blank"><img src="Online-food-ordering-system.jpg" alt="Food Ordering System" width="240" height="180" border="10" /></a> |
-<a href="https://automendy.com" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/bg.jpg" alt="AutoMendy" width="240" height="180" border="10" /></a> |
-<a href="https://cavendish-canteen.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/JennerMaxim/blob/main/Cavendish%20Canteen.png" alt="Cavendish Canteen" width="240" height="180" border="10" /></a> |
-<a href="https://maximdoccure.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/Doccure/blob/main/chat/assets/img/logo.png" alt="DOCCURE" width="240" height="180" border="10" /></a> |
-<a href="https://maximmovieland.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/ReactJs/blob/main/movieland/MovieLand.png" alt="MOVIE LAND" width="240" height="180" border="10" /></a> |
-<a href="http://appointment-maxim.rf.gd/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/Doctor%20Appointment%20System.png" alt="DOCTOR APPOINTMENT SYSTEM" width="240" height="180" border="10" /></a> |
-<a href="https://todo-app-javascript-maxim.netlify.app/" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/todo_app_javascript.png" 
-alt="TODO APP WITH JAVASCRIPT" width="240" height="180" border="10" /></a> |
-<a href="https://happy-birthday-doo-wan.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/happy-birthday.avif" alt="HAPPY BIRTHDAY" width="240" height="180" border="10" /></a> |
-<a href="https://maxim-javascript-animation.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/animation.jpg" alt="ANIMATION USING JAVASCRIPT" width="240" height="180" border="10" /></a> |
-<a href="https://www.youtube.com/watch?v=tWyk0lP-q1c" target="_blank"><img src="https://github.com/JennerMaxim/JennerMaxim/blob/main/makewebsiteguide.jpg" alt="WEBSITE DESIGN" width="240" height="180" border="10" /></a> |
-<a href="https://timer-maxim.netlify.app/" target="_blank"><img src="https://github.com/jennermaxim/jennermaxim/blob/main/timer.png" alt="TIMER" width="240" height="180" border="10" /></a>
+[Some of my project](https://jennermaxim.netlify.app/projects)
 
 ## Some of my Certificates
 
