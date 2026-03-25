@@ -12,6 +12,8 @@ import WasteManagement from "../assets/wastemanagement.png";
 import FinancialFreedom from "../assets/financialfreedom.jpeg";
 import AIPoweredPlatform from "../assets/aipoweredplatform.png";
 import Cavendish from "../assets/cavendish.png";
+import DimeOrder from "../assets/dimeorder.png";
+import OnLeave from "../assets/onleave.svg";
 
 import { Link } from "react-router-dom";
 
@@ -42,6 +44,22 @@ const projects = [
   },
   {
     id: 3,
+    title: "Dime-Order – QR Code Food Ordering System ",
+    description:
+      "Simply scan the QR code at your table to access the menu, place your order, and enjoy a seamless dining experience without waiting for a server.",
+    link: "https://dime-order.vercel.app/",
+    image: DimeOrder,
+  },
+  {
+    id: 4,
+    title: "OnLeave – Employee Leave Management System",
+    description:
+      "A comprehensive web application designed to streamline employee leave management for organizations. This system simplifies the process of requesting, approving, and tracking leave applications.",
+    link: "https://onleave-cuu.vercel.app/",
+    image: OnLeave,
+  },
+  {
+    id: 5,
     title: "Gown Management System",
     description:
       "A sophisticated web application designed to streamline the inventory, rental, and tracking of formal gowns for boutiques, bridal shops, or event planners. This system simplifies gown management with intuitive tools for both staff and customers.",
@@ -49,7 +67,7 @@ const projects = [
     image: Gown,
   },
   {
-    id: 4,
+    id: 6,
     title: "Doctor Appointment System",
     description:
       "This system allows patients to easily schedule, reschedule, or cancel appointments with healthcare providers, while offering doctors an efficient way to manage their schedules.",
@@ -57,7 +75,7 @@ const projects = [
     image: eDoc,
   },
   {
-    id: 5,
+    id: 7,
     title: "Real-Time Chat Application",
     description:
       "A dynamic, full-stack messaging platform enabling seamless real-time communication between users. Designed with modern web technologies, this app replicates core features of popular chat services while prioritizing speed, security, and simplicity.",
@@ -65,7 +83,7 @@ const projects = [
     image: chatApp,
   },
   {
-    id: 6,
+    id: 8,
     title: "SalonHub",
     description:
       "A modern, user-friendly web application designed to simplify salon and barbershop bookings in Uganda. SalonHub connects customers with top-rated beauty professionals, enabling seamless appointment scheduling, service discovery, and business management.",
@@ -73,7 +91,7 @@ const projects = [
     image: salonHub,
   },
   {
-    id: 7,
+    id: 9,
     title: "Face Recognition Attendance System",
     description:
       "A research article exploring the development and implementation of an AI-powered attendance system using facial recognition technology. Published in the Cavendish Journal of Science and Technology, this paper presents an efficient, contactless alternative to traditional attendance tracking for academic institutions and workplaces.",
@@ -81,7 +99,7 @@ const projects = [
     image: FaceRecognition,
   },
   {
-    id: 8,
+    id: 10,
     title: "Cavendish Canteen – Campus Food Ordering System",
     description:
       "A digital canteen solution designed to streamline food ordering for students and staff. This platform offers a hassle-free way to browse menus, and place orders from a smartphone or computer.",
@@ -89,7 +107,7 @@ const projects = [
     image: cavendishCanteen,
   },
   {
-    id: 9,
+    id: 11,
     title: "Modern Chat App Interface (UI/UX Demo)",
     description:
       "A clean, interactive frontend prototype for a real-time messaging application, designed with a focus on intuitive user experience and visual appeal. This interface showcases core chat functionalities with a polished, responsive layout.",
@@ -97,7 +115,7 @@ const projects = [
     image: ChatAppInterface,
   },
   {
-    id: 10,
+    id: 12,
     title: "MovieLand – Discover & Explore Films",
     description:
       "A dynamic movie browsing web app that lets users explore trending, upcoming, and classic films with ease. Powered by the TMDB API, MovieLand delivers a seamless cinematic experience with rich details and intuitive navigation.",
@@ -105,7 +123,7 @@ const projects = [
     image: MovieLand,
   },
   {
-    id: 11,
+    id: 13,
     title: "JavaScript Birthday Wisher",
     description:
       "A delightful web app that creates personalized birthday celebrations in the browser! This interactive experience combines animations, music, and custom messages to deliver unforgettable digital birthday wishes.",
@@ -113,7 +131,7 @@ const projects = [
     image: Birthday,
   },
   {
-    id: 12,
+    id: 14,
     title: "Repos Céleste",
     description:
       "A web app for Repos Céleste, a platform that allows users to access the details of their dead loved ones. This application provides a respectful and user-friendly interface for managing and honoring the memories of those who have passed away.",
@@ -121,7 +139,7 @@ const projects = [
     image: ReposCeleste,
   },
   {
-    id: 13,
+    id: 15,
     title: "Waste Management Robot",
     description:
       "An innovative robotic solution designed to automate waste collection and sorting in urban environments. This project aims to enhance recycling efforts and reduce human labor in waste management.",
