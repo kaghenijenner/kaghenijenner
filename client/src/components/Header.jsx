@@ -90,6 +90,7 @@ const Header = () => {
           <div className="right-nav">
             <NavLink to="/about">About Me</NavLink>
             <NavLink to="/projects">My Projects</NavLink>
+            <NavLink to="/certificates">Certificates</NavLink>
             <NavLink to="/contact">Contact Me</NavLink>
             <NavLink to="/resume">Resume</NavLink>
           </div>
@@ -102,6 +103,7 @@ const Header = () => {
             <div className="menu" onClick={closeMenu}>
               <NavLink to="/about">About Me</NavLink>
               <NavLink to="/projects">My Projects</NavLink>
+              <NavLink to="/certificates">Certificates</NavLink>
               <NavLink to="/contact">Contact Me</NavLink>
               <NavLink to="/resume">Resume</NavLink>
             </div>

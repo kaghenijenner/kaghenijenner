@@ -47,7 +47,7 @@ const projects = [
     title: "Dime-Order – QR Code Food Ordering System ",
     description:
       "Simply scan the QR code at your table to access the menu, place your order, and enjoy a seamless dining experience without waiting for a server.",
-    link: "https://dime-order.vercel.app/",
+    link: "https://dimeorder.vercel.app/",
     image: DimeOrder,
   },
   {
