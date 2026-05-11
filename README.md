@@ -16,7 +16,7 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 - 🔭 I’m currently working on a private project
 - 🌱 I learn something new every day.
 - 👯 I’m looking to collaborate on an open-source project
-- 📫 How to reach me: <a href="tel:+256740639860">Call Me on +256740639860</a> | <a href="mailto:jennersi1remaxim@gmail.com">Email Me</a>
+- 📫 How to reach me: <a href="mailto:jennersi1remaxim@gmail.com">Email Me</a>
 
 [Some of my projects](https://jennermaxim.netlify.app/projects)
 
