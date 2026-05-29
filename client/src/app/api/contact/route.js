@@ -14,7 +14,7 @@ export async function POST(request) {
       from: `${name} <${process.env.RESEND_FROM_EMAIL}>`,
       to: process.env.NOTIFICATION_EMAIL,
       replyTo: email,
-      subject: `[Portfolio] ${subject}`,
+      subject: `${subject}`,
       html: `
         <div style="font-family:system-ui,sans-serif;max-width:600px;margin:0 auto;padding:32px;background:#09090f;color:#fff;border-radius:16px">
           <h2 style="margin:0 0 24px;color:#646cff">New message from your portfolio</h2>
