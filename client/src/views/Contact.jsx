@@ -46,23 +46,37 @@ const MapPinIcon = () => (
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "" });
-  const [status, setStatus] = useState("");
+  const [status, setStatus] = useState({ type: "", text: "" });
+  const [sending, setSending] = useState(false);
   const [headerRef, headerInView] = useInView(0.1);
   const [contentRef, contentInView] = useInView(0.05);
 
   const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const link = `mailto:ceo@jennermaxim.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    )}`;
-    window.location.href = link;
-    setStatus("Opening your email client...");
-    setTimeout(() => {
-      setFormData({ name: "", email: "", subject: "", message: "" });
-      setStatus("");
-    }, 2000);
+    setSending(true);
+    setStatus({ type: "", text: "" });
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+
+      if (res.ok) {
+        setStatus({ type: "success", text: "Message sent! I'll get back to you soon." });
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        setStatus({ type: "error", text: data.error || "Something went wrong. Please try again." });
+      }
+    } catch {
+      setStatus({ type: "error", text: "Network error. Please try again." });
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -126,12 +140,13 @@ const Contact = () => {
                 required placeholder="Kagheni Jenner"
               />
             </div>
-            <div className="form-group">
+            <div className="form-group" suppressHydrationWarning>
               <label htmlFor="email">Your Email *</label>
               <input
                 type="email" id="email" name="email"
                 value={formData.email} onChange={handleChange}
                 required placeholder="you@company.com"
+                suppressHydrationWarning
               />
             </div>
             <div className="form-group">
@@ -151,10 +166,14 @@ const Contact = () => {
                 placeholder="Tell me about your project, timeline, and budget..."
               />
             </div>
-            <button type="submit" className="submit-btn">
-              Send Message →
+            <button type="submit" className="submit-btn" disabled={sending}>
+              {sending ? "Sending..." : "Send Message →"}
             </button>
-            {status && <p className="status-message">{status}</p>}
+            {status.text && (
+              <p className={`status-message${status.type === "error" ? " status-error" : ""}`}>
+                {status.text}
+              </p>
+            )}
           </form>
         </div>
       </div>

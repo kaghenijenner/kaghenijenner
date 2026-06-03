@@ -362,6 +362,18 @@
         color: #00d68f;
         font-size: 0.9rem;
         text-align: center;
+
+        &.status-error {
+          background: rgba(255, 80, 80, 0.06);
+          border-color: rgba(255, 80, 80, 0.25);
+          color: #ff6b6b;
+        }
+      }
+
+      .submit-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none !important;
       }
     }
   }
