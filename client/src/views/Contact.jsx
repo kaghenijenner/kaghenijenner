@@ -123,7 +123,7 @@ const Contact = () => {
               <input
                 type="text" id="name" name="name"
                 value={formData.name} onChange={handleChange}
-                required placeholder="John Doe"
+                required placeholder="Kagheni Jenner"
               />
             </div>
             <div className="form-group">

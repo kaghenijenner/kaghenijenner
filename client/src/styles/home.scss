@@ -1,8 +1,4 @@
-@mixin mobile { @media screen and (max-width: 480px) { @content; } }
-@mixin maxmobile { @media screen and (max-width: 600px) { @content; } }
-@mixin tablet { @media screen and (max-width: 768px) { @content; } }
-@mixin maxtablet { @media screen and (max-width: 900px) { @content; } }
-@mixin laptop { @media screen and (max-width: 1200px) { @content; } }
+@use './glass' as *;
 
 @keyframes float-orb {
   0%, 100% { transform: translateY(0) scale(1); }
@@ -62,7 +58,7 @@
 
 .home {
   width: 100%;
-  background-color: var(--bg, #09090f);
+  background-color: transparent;
 
   // ── HERO ──────────────────────────────────────────────
   .hero {
@@ -180,8 +176,8 @@
         bottom: -18px;
         left: 50%;
         transform: translateX(-50%);
-        background: rgba(14, 14, 26, 0.95);
-        border: 1px solid rgba(0, 214, 143, 0.35);
+        @include glass-strong;
+        border-color: rgba(0, 214, 143, 0.35);
         border-radius: 50px;
         padding: 8px 20px;
         display: flex;
@@ -192,8 +188,9 @@
         color: #00d68f;
         font-weight: 600;
         letter-spacing: 0.3px;
-        backdrop-filter: blur(10px);
-        box-shadow: 0 5px 20px rgba(0, 214, 143, 0.15);
+        box-shadow:
+          inset 0 1px 0 var(--glass-highlight),
+          0 5px 20px rgba(0, 214, 143, 0.18);
 
         .dot {
           width: 8px; height: 8px;
@@ -236,7 +233,7 @@
       h1 {
         font-size: clamp(2rem, 4.5vw, 3.8rem);
         font-weight: 900;
-        color: #fff;
+        color: var(--text-strong);
         margin-bottom: 6px;
         letter-spacing: -0.5px;
 
@@ -350,16 +347,13 @@
           }
 
           &.btn-outline {
-            background: transparent;
-            color: rgba(255,255,255,0.8);
-            border: 1px solid rgba(255,255,255,0.15);
-            backdrop-filter: blur(10px);
+            @include glass;
+            color: var(--text);
 
             &:hover {
-              border-color: var(--primary, #646cff);
+              @include glass-hover;
               color: var(--primary, #646cff);
               transform: translateY(-3px);
-              background: rgba(100, 108, 255, 0.06);
             }
           }
         }
@@ -404,8 +398,8 @@
   .stats-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border-top: 1px solid var(--border, rgba(100, 108, 255, 0.18));
-    border-bottom: 1px solid var(--border, rgba(100, 108, 255, 0.18));
+    @include glass-strong;
+    border-radius: 0;
 
     @include maxtablet { grid-template-columns: repeat(2, 1fr); }
 
@@ -413,7 +407,7 @@
       padding: 36px 20px;
       text-align: center;
       position: relative;
-      background: var(--bg, #09090f);
+      background: transparent;
       transition: background 0.3s ease;
 
       &:not(:last-child)::after {
@@ -426,7 +420,7 @@
         @include maxtablet { display: none; }
       }
 
-      &:hover { background: rgba(100, 108, 255, 0.04); }
+      &:hover { background: rgba(100, 108, 255, 0.08); }
 
       .stat-number {
         font-size: clamp(2.5rem, 5vw, 4rem);

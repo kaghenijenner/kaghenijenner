@@ -3,41 +3,27 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: dark;
-  color: var(--text);
-  background-color: var(--bg);
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #09090f;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 
-  /* ── Brand accents (theme-independent) ───────────────── */
   --primary: #646cff;
   --primary-dark: #535bf2;
   --accent: #7c3aed;
   --cyan: #00d4ff;
-  --success: #00d68f;
-  --glow: rgba(100, 108, 255, 0.4);
-  --glow-cyan: rgba(0, 212, 255, 0.3);
-
-  /* ── Dark theme ─────────────────────────────────────── */
   --bg: #09090f;
   --bg-card: #0e0e1a;
   --bg-card-2: #13132a;
   --border: rgba(100, 108, 255, 0.18);
-  --text-strong: #ffffff;
+  --glow: rgba(100, 108, 255, 0.4);
+  --glow-cyan: rgba(0, 212, 255, 0.3);
   --text: rgba(255, 255, 255, 0.9);
   --muted: #8888aa;
-  --scrim: rgba(9, 9, 15, 0.92);
-
-  /* Liquid Glass tokens */
-  --glass-bg: rgba(255, 255, 255, 0.06);
-  --glass-bg-strong: rgba(14, 14, 26, 0.72);
-  --glass-border: rgba(255, 255, 255, 0.12);
-  --glass-highlight: rgba(255, 255, 255, 0.2);
-  --glass-shadow: rgba(0, 0, 0, 0.45);
-  --glass-blur: 22px;
-  --icon-filter: brightness(2) grayscale(0.5);
+  --success: #00d68f;
 }
 
 * {
@@ -52,25 +38,6 @@ body {
   min-height: 100vh;
   background-color: var(--bg);
   overflow-x: hidden;
-  position: relative;
-}
-
-/* Ambient gradient layer — gives glass surfaces something to refract */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    radial-gradient(60% 50% at 15% 0%, rgba(100, 108, 255, 0.18) 0%, transparent 60%),
-    radial-gradient(50% 50% at 100% 30%, rgba(124, 58, 237, 0.15) 0%, transparent 60%),
-    radial-gradient(45% 45% at 80% 100%, rgba(0, 212, 255, 0.12) 0%, transparent 60%);
-}
-
-/* Offset for the fixed floating navbar (14px top padding + ~58px nav height) */
-main {
-  padding-top: 86px;
 }
 
 a {

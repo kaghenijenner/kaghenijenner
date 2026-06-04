@@ -1,6 +1,4 @@
-@mixin mobile { @media screen and (max-width: 480px) { @content; } }
-@mixin tablet { @media screen and (max-width: 768px) { @content; } }
-@mixin maxtablet { @media screen and (max-width: 900px) { @content; } }
+@use './glass' as *;
 
 @keyframes nav-glow {
   0%, 100% { box-shadow: 0 1px 0 rgba(100, 108, 255, 0.2); }
@@ -8,83 +6,80 @@
 }
 
 .header-page {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
-  transition: all 0.3s ease;
+  padding: 14px 20px 0;
+  pointer-events: none;
 
-  &.scrolled {
-    .main-nav {
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      background: rgba(9, 9, 15, 0.9);
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(100, 108, 255, 0.2);
-    }
-  }
+  /* All children re-enable pointer events */
+  * { pointer-events: auto; }
 
+  // Floating right-side social dock
   .pre-header-bar {
-    background: rgba(0, 0, 0, 0.9);
-    border-bottom: 1px solid rgba(100, 108, 255, 0.12);
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    pointer-events: auto;
 
-    @include maxtablet { display: none; }
-
-    .pre-header {
-      max-width: 1400px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 8px 40px;
-
-      .contact {
-        display: flex;
-        gap: 4px;
-
-        a {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          padding: 6px 14px;
-          color: var(--muted, #8888aa);
-          font-size: 0.85rem;
-          border-radius: 6px;
-          transition: all 0.3s ease;
-
-          .icon { font-size: 0.8rem; }
-
-          &:hover {
-            color: var(--primary, #646cff);
-            background: rgba(100, 108, 255, 0.08);
-          }
-        }
-      }
+    @include mobile {
+      right: 10px;
 
       .social-media {
-        display: flex;
-        align-items: center;
+        padding: 8px 6px;
         gap: 4px;
 
         a {
-          width: 32px;
-          height: 32px;
+          width: 30px;
+          height: 30px;
+
+          img { width: 15px; height: 15px; }
+        }
+      }
+    }
+
+    .pre-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      // Email/phone text links don't suit a vertical dock — hide them
+      .contact { display: none; }
+
+      .social-media {
+        @include glass-strong;
+        border-radius: 30px;
+        padding: 12px 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+
+        a {
+          width: 36px;
+          height: 36px;
           display: flex;
           align-items: center;
           justify-content: center;
-          border-radius: 8px;
+          border-radius: 50%;
           transition: all 0.3s ease;
-          opacity: 0.6;
+          opacity: 0.65;
 
           &:hover {
             opacity: 1;
-            background: rgba(100, 108, 255, 0.15);
-            transform: translateY(-2px);
+            background: rgba(100, 108, 255, 0.18);
+            transform: translateX(-3px) scale(1.1);
           }
 
           img {
             width: 18px;
             height: 18px;
             object-fit: contain;
-            filter: brightness(2) grayscale(0.5);
+            filter: var(--icon-filter);
           }
         }
       }
@@ -92,21 +87,26 @@
   }
 
   .main-nav {
-    background: rgba(9, 9, 15, 0.85);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(100, 108, 255, 0.1);
+    @include glass-strong;
+    border-radius: 40px;
     transition: all 0.3s ease;
+    max-width: 1360px;
+    margin: 0 auto;
+
+    &.scrolled-nav {
+      box-shadow:
+        inset 0 1px 0 var(--glass-highlight),
+        0 8px 40px var(--glass-shadow),
+        0 0 0 1px rgba(100, 108, 255, 0.15);
+    }
 
     .nav-inner {
-      max-width: 1400px;
-      margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 14px 40px;
+      padding: 12px 24px;
 
-      @include maxtablet { padding: 14px 20px; }
+      @include maxtablet { padding: 12px 18px; }
     }
 
     .logo {
@@ -146,7 +146,7 @@
         .name {
           font-size: 1rem;
           font-weight: 700;
-          color: #fff;
+          color: var(--text-strong);
           line-height: 1.2;
         }
 
@@ -176,8 +176,8 @@
         position: relative;
 
         &:hover {
-          color: #fff;
-          background: rgba(100, 108, 255, 0.1);
+          color: var(--text-strong);
+          background: rgba(100, 108, 255, 0.12);
         }
 
         &.active {
@@ -234,7 +234,7 @@
       > div {
         width: 22px;
         height: 2px;
-        background: #fff;
+        background: var(--text-strong);
         border-radius: 2px;
         transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
       }
@@ -247,8 +247,9 @@
     }
 
     .mobile-menu {
-      border-top: 1px solid rgba(100, 108, 255, 0.1);
-      padding: 10px 20px 20px;
+      border-top: 1px solid var(--glass-border);
+      border-radius: 0 0 20px 20px;
+      padding: 10px 18px 16px;
       display: flex;
       flex-direction: column;
       gap: 4px;
