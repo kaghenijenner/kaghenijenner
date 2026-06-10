@@ -1,6 +1,5 @@
 # Kagheni Jenner
 
-- ### GitHub Statistics
   ![GitHub stats](https://github-readme-stats.vercel.app/api?username=kaghenijenner&theme=discord_old_blurple&show_icons=true)
 
   ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaghenijenner&theme=discord_old_blurple) 
@@ -24,26 +23,19 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 
 <hr></hr>
 
-- ### My GitHub Trophies
   ![](https://github-profile-trophy-kannan.vercel.app/?username=kaghenijenner&theme=onedark)
 
-- ### Most Used Language
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaghenijenner&theme=discord_old_blurple)
 
-- ### Most Used Language by Repo (used in most repos)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaghenijenner&theme=discord_old_blurple)
   
-- ### Most Used Language by Commit (most committed)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaghenijenner&theme=discord_old_blurple)
 
-- ### GitHub Metrics
   ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaghenijenner&theme=discord_old_blurple)
   ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaghenijenner&theme=discord_old_blurple&utcOffset=3)
 
-- ### GitHub Streak Statistics
   [![GitHub Streak](https://streak-stats.demolab.com/?user=kaghenijenner&theme=dark)](https://git.io/streak-stats)
 
-- ### Random Dev Quote
   ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 - ### Github Profile View
