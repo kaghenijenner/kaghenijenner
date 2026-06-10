@@ -12,9 +12,9 @@ Feel free to explore my portfolio, learn more about my skills, and get in touch 
 
 Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXTJS / NODEJS / PYTHON / HTML / CSS / PHP / MySQL / FIREBASE / MONGODB / WordPress / BASIC NETWORK CONFIGURATION AND MANAGEMENT / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER / LINUX
 
-- 🔭 I’m currently working on a [check-in](https://checkin-jenner.vercel.app) app project [repo]()
+- 🔭 I’m currently working on a [check-in](https://checkin-jenner.vercel.app) app project [code](https://github.com/kaghenijenner/check-in)
 - 🌱 I learn something new every day.
-- 👯 I’m looking to collaborate on an open-source project
+- 👯 I’m looking to collaborate on an open-source project<|join|>- 👯 I'm looking to collaborate on an open-source project
 - 📫 How to reach me: <a href="mailto:jennersi1remaxim@gmail.com">Email Me</a>
 
 [Some of my projects](https://jennermaxim.netlify.app/projects)
