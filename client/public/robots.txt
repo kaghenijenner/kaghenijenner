@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /*.woff2$
+Disallow: /*.ico$
+Disallow: /*.woff$
+Disallow: /*.ttf$
+
+# Allow everything else
+Allow: /
+
+Sitemap: https://jennermaxim.com/sitemap.xml

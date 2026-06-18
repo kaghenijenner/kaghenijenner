@@ -1,4 +1,5 @@
 import "../styles/skills.scss";
+import useInView from "../hooks/useInView";
 import HTMLCSS from "../assets/htmlcss.jpeg";
 import MySQL from "../assets/mysql.png";
 import PHP from "../assets/php.png";
@@ -20,46 +21,79 @@ import WordPress from "../assets/wordpress.png";
 import MongoDB from "../assets/mongodb.svg";
 import ReactNative from "../assets/reactnative.png";
 
+const allSkills = [
+  { img: JS, title: "JavaScript", level: 100, category: "Frontend" },
+  { img: TypeScript, title: "TypeScript", level: 90, category: "Frontend" },
+  { img: ReactJS, title: "React.js", level: 100, category: "Frontend" },
+  { img: ReactNative, title: "React Native", level: 85, category: "Mobile" },
+  { img: Nextjs, title: "Next.js", level: 100, category: "Frontend" },
+  { img: Node, title: "Node.js", level: 80, category: "Backend" },
+  { img: MongoDB, title: "MongoDB", level: 100, category: "Backend" },
+  { img: HTMLCSS, title: "HTML & CSS", level: 100, category: "Frontend" },
+  { img: JQuery, title: "JQuery", level: 100, category: "Frontend" },
+  { img: AJAX, title: "Ajax", level: 100, category: "Frontend" },
+  { img: PHP, title: "PHP", level: 100, category: "Backend" },
+  { img: MySQL, title: "MySQL", level: 100, category: "Backend" },
+  { img: Firebase, title: "Firebase", level: 80, category: "Backend" },
+  { img: Python, title: "Python", level: 90, category: "AI/ML" },
+  { img: PhotoShop, title: "Photoshop", level: 90, category: "Design" },
+  { img: Blender, title: "Blender", level: 80, category: "Design" },
+  { img: Flutter, title: "Flutter", level: 60, category: "Mobile" },
+  { img: Linux, title: "Linux", level: 100, category: "DevOps" },
+  { img: Angular, title: "Angular.js", level: 50, category: "Frontend" },
+  { img: WordPress, title: "WordPress", level: 100, category: "CMS" },
+];
+
+const sorted = [...allSkills].sort((a, b) => b.level - a.level);
+
+const levelLabel = (l) => l >= 90 ? "Expert" : l >= 75 ? "Advanced" : l >= 60 ? "Intermediate" : "Learning";
+
+const SkillCard = ({ img, title, level, inView, index }) => (
+  <div
+    className={`skill reveal${inView ? " in-view" : ""}`}
+    style={{ transitionDelay: `${(index % 5) * 0.08}s` }}
+  >
+    <div className="skill-icon">
+      <img src={img} alt={title} />
+    </div>
+    <div className="skill-info">
+      <div className="skill-header">
+        <h4>{title}</h4>
+        <span className={`skill-badge badge-${levelLabel(level).toLowerCase()}`}>
+          {levelLabel(level)}
+        </span>
+      </div>
+      <div className="level-bar">
+        <div
+          className="level-fill"
+          style={{ width: inView ? `${level}%` : "0%" }}
+        />
+      </div>
+      <span className="level-pct">{level}%</span>
+    </div>
+  </div>
+);
+
 const Skills = () => {
-    const skills = [
-        { img: JS, title: "JavaScript", level: 100 },
-        { img: TypeScript, title: "TypeScript", level: 90 },
-        { img: ReactJS, title: "React.js", level: 100 },
-        { img: ReactNative, title: "React Native", level: 85 },
-        { img: Nextjs, title: "Next.js", level: 100 },
-        { img: Node, title: "Node.js", level: 80 },
-        { img: MongoDB, title: "MongoDB", level: 100 },
-        { img: HTMLCSS, title: "HTML & CSS", level: 100 },
-        { img: JQuery, title: "JQuery", level: 100 },
-        { img: AJAX, title: "Ajax", level: 100 },
-        { img: PHP, title: "PHP", level: 100 },
-        { img: MySQL, title: "MySQL", level: 100 },
-        { img: Firebase, title: "Firebase", level: 80 },
-        { img: Python, title: "Python", level: 90 },
-        { img: PhotoShop, title: "PhotoShop", level: 90 },
-        { img: Blender, title: "Blender", level: 80 },
-        { img: Flutter, title: "Flutter", level: 60 },
-        { img: Linux, title: "Linux", level: 100 },
-        { img: Angular, title: "Angular.js", level: 50 },
-        { img: WordPress, title: "WordPress", level: 100 },
-    ];
-    const sortedSkills = skills.sort((a, b) => b.level - a.level);
-    return (
-        <div className="skills">
-            <h1>Skills</h1>
-            <div className="skills-list">
-                {sortedSkills.map((skill, index) => (
-                    <div key={index} className="skill">
-                        <img src={skill.img} alt={skill.title} />
-                        <h4>{skill.title}</h4>
-                        <p className="level">
-                            <span style={{ width: `${skill.level}%` }}></span>
-                        </p>
-                    </div>
-                ))}
-            </div>
-        </div>
-    );
+  const [ref, inView] = useInView(0.05);
+
+  return (
+    <section className="skills" ref={ref}>
+      <div className="skills-header">
+        <h2 className={`reveal${inView ? " in-view" : ""}`}>
+          Skills &amp; <span>Technologies</span>
+        </h2>
+        <p className={`reveal${inView ? " in-view" : ""} stagger-1`}>
+          A toolkit built over years of real-world projects
+        </p>
+      </div>
+      <div className="skills-list">
+        {sorted.map((skill, i) => (
+          <SkillCard key={skill.title} {...skill} inView={inView} index={i} />
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Skills;

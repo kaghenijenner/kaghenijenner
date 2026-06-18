@@ -6,112 +6,103 @@ import Instagram from "../assets/instagram.png";
 import Maxim from "../assets/jennermaxim.png";
 import Whatsapp from "../assets/whatsapp.png";
 import Telegram from "../assets/telegram.png";
-import { Link, NavLink } from "react-router-dom";
-import { useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    setIsVisible(false);
+    document.querySelector(".menu-icon")?.classList.remove("change");
+  }, [location]);
+
   const showMenu = (e) => {
     e.currentTarget.classList.toggle("change");
-    setIsVisible(!isVisible);
-  };
-
-  const closeMenu = () => {
-    setIsVisible(false);
-    document.querySelector(".menu-icon").classList.remove("change");
+    setIsVisible((v) => !v);
   };
 
   return (
-    <>
-      <div className="header-page">
-        <div className="pre-header-position">
-          <div className="pre-header">
-            <div className="contact">
-              <a href="mailto:ceo@jennermaxim.com">Email me</a>
-              <a href="tel:+256784305644">Call me</a>
-            </div>
-            <div className="social-media">
-              <a
-                href="http://github.com/kaghenijenner"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={GitHub} alt="GitHub" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/kagheni-jenner-b11051251"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={LinkedIn} alt="LinkedIn" />
-              </a>
-              <a
-                href="https://x.com/maximjenner"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={X} alt="X" />
-              </a>
-              <a
-                href="https://www.instagram.com/jennermaxim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Instagram} alt="Instagram" />
-              </a>
-              <a
-                href="https://wa.me/+256784305644"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Whatsapp} alt="Whatsapp" />
-              </a>
-              <a
-                href="https://t.me/jennermaxim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Telegram} alt="Telegram" />
-              </a>
-            </div>
+    <div className={`header-page${scrolled ? " scrolled" : ""}`}>
+      <div className="pre-header-bar">
+        <div className="pre-header">
+          <div className="contact">
+            <a href="mailto:ceo@jennermaxim.com">
+              <span className="icon">✉</span> Email me
+            </a>
+            <a href="tel:+256784305644">
+              <span className="icon">☎</span> Call me
+            </a>
           </div>
-          <hr />
+          <div className="social-media">
+            <a href="http://github.com/kaghenijenner" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <img src={GitHub} alt="GitHub" />
+            </a>
+            <a href="https://www.linkedin.com/in/kagheni-jenner-b11051251" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <img src={LinkedIn} alt="LinkedIn" />
+            </a>
+            <a href="https://x.com/maximjenner" target="_blank" rel="noopener noreferrer" title="X">
+              <img src={X} alt="X" />
+            </a>
+            <a href="https://www.instagram.com/jennermaxim" target="_blank" rel="noopener noreferrer" title="Instagram">
+              <img src={Instagram} alt="Instagram" />
+            </a>
+            <a href="https://wa.me/+256784305644" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+              <img src={Whatsapp} alt="WhatsApp" />
+            </a>
+            <a href="https://t.me/jennermaxim" target="_blank" rel="noopener noreferrer" title="Telegram">
+              <img src={Telegram} alt="Telegram" />
+            </a>
+          </div>
         </div>
-        <div className="header">
-          <div className="logo">
-            <img src={Maxim} alt="Kagheni Jenner" />
-            <Link to="/">
-              <h1>Kagheni Jenner</h1>
-            </Link>
-          </div>
-          <div className="search">
-            <input type="search" name="" id="" placeholder="Search" />
-          </div>
+      </div>
+
+      <nav className="main-nav">
+        <div className="nav-inner">
+          <Link to="/" className="logo">
+            <div className="logo-img-wrap">
+              <img src={Maxim} alt="Kagheni Jenner" />
+            </div>
+            <div className="logo-text">
+              <span className="name">Kagheni Jenner</span>
+              <span className="title-tag">Software Engineer</span>
+            </div>
+          </Link>
+
           <div className="right-nav">
-            <NavLink to="/about">About Me</NavLink>
-            <NavLink to="/projects">My Projects</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/certificates">Certificates</NavLink>
-            <NavLink to="/contact">Contact Me</NavLink>
-            <NavLink to="/resume">Resume</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/resume" className="nav-resume-btn">Resume</NavLink>
           </div>
-          <div className="menu-icon" onClick={showMenu}>
+
+          <button className="menu-icon" onClick={showMenu} aria-label="Toggle menu">
             <div className="bar1"></div>
             <div className="bar2"></div>
             <div className="bar3"></div>
-          </div>
-          {isVisible && (
-            <div className="menu" onClick={closeMenu}>
-              <NavLink to="/about">About Me</NavLink>
-              <NavLink to="/projects">My Projects</NavLink>
-              <NavLink to="/certificates">Certificates</NavLink>
-              <NavLink to="/contact">Contact Me</NavLink>
-              <NavLink to="/resume">Resume</NavLink>
-            </div>
-          )}
+          </button>
         </div>
-        <hr />
-      </div>
-    </>
+
+        {isVisible && (
+          <div className="mobile-menu" onClick={() => setIsVisible(false)}>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/certificates">Certificates</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/resume">Resume</NavLink>
+          </div>
+        )}
+      </nav>
+    </div>
   );
 };
 

@@ -6,7 +6,10 @@ const GitHubStats = () => {
 
     return (
         <div className="github-stats">
-            <h2>GitHub Statistics</h2>
+            <div className="github-stats-header">
+                <h2>GitHub <span>Statistics</span></h2>
+                <p>A snapshot of my open-source activity and contributions.</p>
+            </div>
             <div className="stats-grid">
                 <div className="stat-card">
                     <img
@@ -36,12 +39,12 @@ const GitHubStats = () => {
                     />
                 </div>
 
-                <div className="stat-card trophy">
+                {/* <div className="stat-card trophy">
                     <img
                         src={`https://github-profile-trophy-kannan.vercel.app/?username=${username}&theme=onedark`}
                         alt="GitHub Trophies"
                     />
-                </div>
+                </div> */}
             </div>
 
             <div className="profile-views">
