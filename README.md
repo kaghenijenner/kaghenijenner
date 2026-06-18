@@ -1,6 +1,5 @@
 # Kagheni Jenner
 
-- ### GitHub Statistics
   ![GitHub stats](https://github-readme-stats.vercel.app/api?username=kaghenijenner&theme=discord_old_blurple&show_icons=true)
 
   ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaghenijenner&theme=discord_old_blurple) 
@@ -13,7 +12,7 @@ Feel free to explore my portfolio, learn more about my skills, and get in touch 
 
 Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXTJS / NODEJS / PYTHON / HTML / CSS / PHP / MySQL / FIREBASE / MONGODB / WordPress / BASIC NETWORK CONFIGURATION AND MANAGEMENT / COMPUTER REPAIR / GRAPHIC DESIGN / PHOTOSHOP / UI/UX / FIGMA / BLENDER / LINUX
 
-- 🔭 I’m currently working on a private project
+- 🔭 I’m currently working on a [check-in](https://checkin-jenner.vercel.app) app project [code](https://github.com/kaghenijenner/check-in)
 - 🌱 I learn something new every day.
 - 👯 I’m looking to collaborate on an open-source project
 - 📫 How to reach me: <a href="mailto:jennersi1remaxim@gmail.com">Email Me</a>
@@ -24,27 +23,19 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 
 <hr></hr>
 
-- ### My GitHub Trophies
   ![](https://github-profile-trophy-kannan.vercel.app/?username=kaghenijenner&theme=onedark)
 
-- ### Most Used Language
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaghenijenner&theme=discord_old_blurple)
 
-- ### Most Used Language by Repo (used in most repos)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaghenijenner&theme=discord_old_blurple)
   
-- ### Most Used Language by Commit (most committed)
   ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaghenijenner&theme=discord_old_blurple)
 
-- ### GitHub Metrics
   ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaghenijenner&theme=discord_old_blurple)
   ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaghenijenner&theme=discord_old_blurple&utcOffset=3)
 
-- ### GitHub Streak Statistics
   [![GitHub Streak](https://streak-stats.demolab.com/?user=kaghenijenner&theme=dark)](https://git.io/streak-stats)
 
-- ### Random Dev Quote
   ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
-- ### Github Profile View
   <p align="left"> <img src="https://komarev.com/ghpvc/?username=kaghenijenner&label=Profile%20views&color=0e75b6&style=flat" alt="incredible-phoenix246" /> </p>
