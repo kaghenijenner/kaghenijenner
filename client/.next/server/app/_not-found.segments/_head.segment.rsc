@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/3ylc8yusl0tp1.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/3ylc8yusl0tp1.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Kagheni Jenner | Software Engineer & Full Stack Developer"}],["$","meta","1",{"name":"description","content":"Passionate Software Engineer from Uganda specializing in full-stack web, mobile, AI/ML, and cloud solutions. Available for hire."}],["$","meta","2",{"name":"keywords","content":"Software Engineer,Full Stack Developer,React,Next.js,Node.js,Uganda,Kagheni Jenner,Web Development,Mobile Development"}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"CTqZLRkWxzv11ZbRGbkit"}

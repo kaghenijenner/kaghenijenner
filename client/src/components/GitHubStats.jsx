@@ -1,3 +1,4 @@
+'use client';
 import "../styles/githubstats.scss";
 
 const GitHubStats = () => {

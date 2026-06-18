@@ -1,3 +1,4 @@
+'use client';
 import "../styles/skills.scss";
 import useInView from "../hooks/useInView";
 import HTMLCSS from "../assets/htmlcss.jpeg";
@@ -21,27 +22,29 @@ import WordPress from "../assets/wordpress.png";
 import MongoDB from "../assets/mongodb.svg";
 import ReactNative from "../assets/reactnative.png";
 
+const u = (i) => i?.src ?? i;
+
 const allSkills = [
-  { img: JS, title: "JavaScript", level: 100, category: "Frontend" },
-  { img: TypeScript, title: "TypeScript", level: 90, category: "Frontend" },
-  { img: ReactJS, title: "React.js", level: 100, category: "Frontend" },
-  { img: ReactNative, title: "React Native", level: 85, category: "Mobile" },
-  { img: Nextjs, title: "Next.js", level: 100, category: "Frontend" },
-  { img: Node, title: "Node.js", level: 80, category: "Backend" },
-  { img: MongoDB, title: "MongoDB", level: 100, category: "Backend" },
-  { img: HTMLCSS, title: "HTML & CSS", level: 100, category: "Frontend" },
-  { img: JQuery, title: "JQuery", level: 100, category: "Frontend" },
-  { img: AJAX, title: "Ajax", level: 100, category: "Frontend" },
-  { img: PHP, title: "PHP", level: 100, category: "Backend" },
-  { img: MySQL, title: "MySQL", level: 100, category: "Backend" },
-  { img: Firebase, title: "Firebase", level: 80, category: "Backend" },
-  { img: Python, title: "Python", level: 90, category: "AI/ML" },
-  { img: PhotoShop, title: "Photoshop", level: 90, category: "Design" },
-  { img: Blender, title: "Blender", level: 80, category: "Design" },
-  { img: Flutter, title: "Flutter", level: 60, category: "Mobile" },
-  { img: Linux, title: "Linux", level: 100, category: "DevOps" },
-  { img: Angular, title: "Angular.js", level: 50, category: "Frontend" },
-  { img: WordPress, title: "WordPress", level: 100, category: "CMS" },
+  { img: u(JS), title: "JavaScript", level: 100, category: "Frontend" },
+  { img: u(TypeScript), title: "TypeScript", level: 90, category: "Frontend" },
+  { img: u(ReactJS), title: "React.js", level: 100, category: "Frontend" },
+  { img: u(ReactNative), title: "React Native", level: 85, category: "Mobile" },
+  { img: u(Nextjs), title: "Next.js", level: 100, category: "Frontend" },
+  { img: u(Node), title: "Node.js", level: 80, category: "Backend" },
+  { img: u(MongoDB), title: "MongoDB", level: 100, category: "Backend" },
+  { img: u(HTMLCSS), title: "HTML & CSS", level: 100, category: "Frontend" },
+  { img: u(JQuery), title: "JQuery", level: 100, category: "Frontend" },
+  { img: u(AJAX), title: "Ajax", level: 100, category: "Frontend" },
+  { img: u(PHP), title: "PHP", level: 100, category: "Backend" },
+  { img: u(MySQL), title: "MySQL", level: 100, category: "Backend" },
+  { img: u(Firebase), title: "Firebase", level: 80, category: "Backend" },
+  { img: u(Python), title: "Python", level: 90, category: "AI/ML" },
+  { img: u(PhotoShop), title: "Photoshop", level: 90, category: "Design" },
+  { img: u(Blender), title: "Blender", level: 80, category: "Design" },
+  { img: u(Flutter), title: "Flutter", level: 60, category: "Mobile" },
+  { img: u(Linux), title: "Linux", level: 100, category: "DevOps" },
+  { img: u(Angular), title: "Angular.js", level: 50, category: "Frontend" },
+  { img: u(WordPress), title: "WordPress", level: 100, category: "CMS" },
 ];
 
 const sorted = [...allSkills].sort((a, b) => b.level - a.level);

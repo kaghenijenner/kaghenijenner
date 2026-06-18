@@ -1,0 +1,226 @@
+/* [project]/src/styles/projects.scss.css [app-client] (css) */
+@keyframes shimmer-card {
+  0% {
+    transform: translateX(-100%)skewX(-15deg);
+  }
+
+  100% {
+    transform: translateX(200%)skewX(-15deg);
+  }
+}
+
+.projects {
+  background: var(--bg, #09090f);
+  min-height: 100vh;
+  padding: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .projects {
+    padding: 40px 24px;
+  }
+}
+
+.projects:before {
+  content: "";
+  background: linear-gradient(to right, #0000, #646cff66, #0000);
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.projects .projects-header {
+  text-align: center;
+  max-width: 700px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects .projects-header h1 {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 900;
+}
+
+.projects .projects-header h1 span {
+  background: linear-gradient(135deg, #646cff, #00d4ff);
+  -webkit-text-fill-color: #0000;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.projects .projects-header p {
+  color: var(--muted, #88a);
+  font-size: 1.05rem;
+}
+
+.projects .filter-tabs {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 48px;
+  display: flex;
+}
+
+.projects .filter-tabs button {
+  color: var(--muted, #88a);
+  cursor: pointer;
+  background: none;
+  border: 1px solid #646cff33;
+  border-radius: 50px;
+  padding: 9px 24px;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 500;
+  transition: all .3s;
+}
+
+.projects .filter-tabs button:hover {
+  border-color: var(--primary, #646cff);
+  color: #fff;
+  background: #646cff14;
+}
+
+.projects .filter-tabs button.active {
+  color: #fff;
+  background: linear-gradient(135deg, #646cff, #7c3aed);
+  border-color: #0000;
+  box-shadow: 0 4px 15px #646cff59;
+}
+
+.projects .cards {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media screen and (max-width: 1200px) {
+  .projects .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.projects .card {
+  background: var(--bg-card, #0e0e1a);
+  cursor: pointer;
+  border: 1px solid #646cff1a;
+  border-radius: 20px;
+  transition: all .4s, opacity .6s, transform .6s;
+  overflow: hidden;
+}
+
+.projects .card:hover {
+  border-color: #646cff59;
+  box-shadow: 0 20px 50px #646cff33;
+  transform: translateY(-8px) !important;
+}
+
+.projects .card .card-image {
+  aspect-ratio: 16 / 9;
+  position: relative;
+  overflow: hidden;
+}
+
+.projects .card .card-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform .5s;
+  display: block;
+}
+
+.projects .card .card-image .card-overlay {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  text-align: center;
+  background: #09090feb;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  transition: opacity .4s;
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+.projects .card .card-image .card-overlay p {
+  color: #ffffffd9;
+  margin-bottom: 20px;
+  font-size: .9rem;
+  line-height: 1.7;
+}
+
+.projects .card .card-image .card-overlay .overlay-btn {
+  color: #fff;
+  background: linear-gradient(135deg, #646cff, #7c3aed);
+  border-radius: 50px;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 24px;
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-flex;
+}
+
+.projects .card .card-image .card-overlay .overlay-btn:hover {
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px #646cff80;
+}
+
+.projects .card:hover .card-image img {
+  transform: scale(1.08);
+}
+
+.projects .card:hover .card-overlay {
+  opacity: 1;
+}
+
+.projects .card .card-body {
+  padding: 20px 22px;
+}
+
+.projects .card .card-body h3 {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.projects .card .card-body .card-tags {
+  flex-wrap: wrap;
+  gap: 6px;
+  display: flex;
+}
+
+.projects .card .card-body .card-tags span {
+  color: #a8afff;
+  letter-spacing: .3px;
+  background: #646cff1f;
+  border: 1px solid #646cff33;
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: .72rem;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=src_styles_projects_scss_0w8h8ro.css.map*/

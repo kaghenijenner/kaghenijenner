@@ -1,0 +1,143 @@
+/* [project]/src/index.css [app-client] (css) */
+:root {
+  --lightningcss-light: ;
+  --lightningcss-dark: initial;
+  color-scheme: dark;
+  color: #ffffffe6;
+  font-synthesis: none;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  --primary: #646cff;
+  --primary-dark: #535bf2;
+  --accent: #7c3aed;
+  --cyan: #00d4ff;
+  --bg: #09090f;
+  --bg-card: #0e0e1a;
+  --bg-card-2: #13132a;
+  --border: #646cff2e;
+  --glow: #646cff66;
+  --glow-cyan: #00d4ff4d;
+  --text: #ffffffe6;
+  --muted: #88a;
+  --success: #00d68f;
+  background-color: #09090f;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--primary);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+a:hover {
+  color: var(--cyan);
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.2;
+}
+
+.reveal {
+  opacity: 0;
+  transition: opacity .7s, transform .7s;
+  transform: translateY(40px);
+}
+
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transition: opacity .7s, transform .7s;
+  transform: translateX(-50px);
+}
+
+.reveal-left.in-view {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transition: opacity .7s, transform .7s;
+  transform: translateX(50px);
+}
+
+.reveal-right.in-view {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.stagger-1 {
+  transition-delay: .1s !important;
+}
+
+.stagger-2 {
+  transition-delay: .2s !important;
+}
+
+.stagger-3 {
+  transition-delay: .3s !important;
+}
+
+.stagger-4 {
+  transition-delay: .4s !important;
+}
+
+.stagger-5 {
+  transition-delay: .5s !important;
+}
+
+.stagger-6 {
+  transition-delay: .6s !important;
+}
+
+.stagger-7 {
+  transition-delay: .7s !important;
+}
+
+.stagger-8 {
+  transition-delay: .8s !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--primary), var(--accent));
+  border-radius: 3px;
+}
+
+::selection {
+  background: var(--primary);
+  color: #fff;
+}
+
+/*# sourceMappingURL=src_index_css_1igg3k2._.single.css.map*/
