@@ -90,7 +90,7 @@ const Contact = () => {
 
           <div className="info-item">
             <h3>Location</h3>
-            <p><MapPinIcon /> Kampala, Uganda</p>
+            <p className="location"><MapPinIcon /> Kampala, Uganda</p>
           </div>
 
           <div className="social-links">
