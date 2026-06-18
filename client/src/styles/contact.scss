@@ -139,7 +139,7 @@
         font-weight: 600;
       }
 
-      a {
+      a, .location {
         display: flex;
         align-items: center;
         gap: 10px;
@@ -165,21 +165,6 @@
           height: 16px;
           flex-shrink: 0;
         }
-      }
-
-      .location {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        color: rgba(255, 255, 255, 0.8);
-        font-size: 1rem;
-        font-weight: 500;
-        padding: 10px 14px;
-        border-radius: 10px;
-        transition: all 0.3s ease;
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.06);
-        margin-bottom: 6px;
       }
 
       p {
