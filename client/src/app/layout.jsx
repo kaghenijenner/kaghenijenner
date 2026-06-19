@@ -1,5 +1,6 @@
 import '../index.css';
 import Header from '../components/Header';
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: 'Kagheni Jenner | Software Engineer & Full Stack Developer',
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning>
         <Header />
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   );
