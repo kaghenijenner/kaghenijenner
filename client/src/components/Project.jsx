@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import "../styles/projects.scss";
 import eDoc from "../assets/edoc.jpg";
 import chatApp from "../assets/chatApp.png";
@@ -6,7 +6,7 @@ import salonHub from "../assets/salonhub.png";
 import cavendishCanteen from "../assets/cavendish-canteen.jpeg";
 import ChatAppInterface from "../assets/doccure.jpeg";
 import MovieLand from "../assets/movieland.png";
-const Birthday = '/happy-birthday.avif';
+const Birthday = "/happy-birthday.avif";
 import Gown from "../assets/gown.jpg";
 import FaceRecognition from "../assets/facerecognition.png";
 import ReposCeleste from "../assets/reposceleste.jpg";
@@ -16,6 +16,7 @@ import AIPoweredPlatform from "../assets/aipoweredplatform.png";
 import Cavendish from "../assets/cavendish.png";
 import DimeOrder from "../assets/dimeorder.png";
 import OnLeave from "../assets/onleave.svg";
+import AkiliZaKesho from "../assets/akilizakesho.png";
 import { useState } from "react";
 import useInView from "../hooks/useInView";
 
@@ -25,7 +26,8 @@ const projects = [
   {
     id: 0,
     title: "AI-Powered Learning Platform",
-    description: "Analyze community issues and get AI-powered mentorship for solving problems. Detect and classify issues from images or text.",
+    description:
+      "Analyze community issues and get AI-powered mentorship for solving problems. Detect and classify issues from images or text.",
     link: "https://jennermaximillien.streamlit.app/",
     image: u(AIPoweredPlatform),
     tags: ["Python", "AI/ML", "Streamlit"],
@@ -34,7 +36,8 @@ const projects = [
   {
     id: 1,
     title: "Financial Freedom App",
-    description: "Web application for depositing cryptocurrencies, earning profitable returns, and withdrawing funds securely.",
+    description:
+      "Web application for depositing cryptocurrencies, earning profitable returns, and withdrawing funds securely.",
     link: "https://financialfreedom.capital/",
     image: u(FinancialFreedom),
     tags: ["React", "Node.js", "Crypto"],
@@ -42,125 +45,149 @@ const projects = [
   },
   {
     id: 2,
-    title: "Cavendish Innovation",
-    description: "Ecosystem for student projects — showcase, collaborate, and manage innovative ideas with intuitive tools.",
-    link: "https://cavendish-innovation.vercel.app/",
-    image: u(Cavendish),
-    tags: ["React", "MongoDB", "Node.js"],
+    title: "Akili za Kesho",
+    description:
+      "A purpose-built multi-tenant platform for African universities and innovation centers to manage every aspect of their operations securely, scalably, and simply.",
+    link: "https://akilizakesho.jennermaxim.com/",
+    image: u(AkiliZaKesho),
+    tags: ["Next.js", "MongoDB", "Node.js"],
     category: "Web",
   },
   {
     id: 3,
-    title: "Dime-Order – QR Food Ordering",
-    description: "Scan a QR code at your table, browse the menu, and place orders without waiting for a server.",
-    link: "https://dimeorder.vercel.app/",
-    image: u(DimeOrder),
-    tags: ["React", "QR Code", "Firebase"],
+    title: "Cavendish Innovation",
+    description:
+      "Ecosystem for student projects, showcase, collaborate, and manage innovative ideas with intuitive tools.",
+    link: "https://cuu.jennermaxim.com/",
+    image: u(Cavendish),
+    tags: ["Next.js", "MongoDB", "Node.js"],
     category: "Web",
   },
   {
     id: 4,
+    title: "Dime-Order – QR Food Ordering",
+    description:
+      "Scan a QR code at your table, browse the menu, and place orders without waiting for a server.",
+    link: "https://dimeorder.vercel.app/",
+    image: u(DimeOrder),
+    tags: ["React", "QR Code", "Firebase"],
+    category: "Mobile",
+  },
+  {
+    id: 5,
     title: "OnLeave – Leave Management",
-    description: "Comprehensive employee leave management: request, approve, and track leave applications across organizations.",
+    description:
+      "Comprehensive employee leave management: request, approve, and track leave applications across organizations.",
     link: "https://onleave-cuu.vercel.app/",
     image: u(OnLeave),
     tags: ["React", "Node.js", "MySQL"],
     category: "Web",
   },
   {
-    id: 5,
+    id: 6,
     title: "Gown Management System",
-    description: "Streamlined inventory, rental, and tracking of formal gowns for boutiques and event planners.",
+    description:
+      "Streamlined inventory, rental, and tracking of formal gowns for boutiques and event planners.",
     link: "https://gown-management.vercel.app/",
     image: u(Gown),
     tags: ["React", "MongoDB", "Express"],
     category: "Web",
   },
   {
-    id: 6,
+    id: 7,
     title: "Doctor Appointment System",
-    description: "Patients schedule, reschedule, or cancel appointments. Doctors manage their schedules efficiently.",
+    description:
+      "Patients schedule, reschedule, or cancel appointments. Doctors manage their schedules efficiently.",
     link: "https://doc.automendy.com/",
     image: u(eDoc),
     tags: ["React", "Node.js", "MySQL"],
     category: "Web",
   },
   {
-    id: 7,
+    id: 8,
     title: "Real-Time Chat Application",
-    description: "Full-stack messaging platform with real-time communication, speed, security, and simplicity.",
+    description:
+      "Full-stack messaging platform with real-time communication, speed, security, and simplicity.",
     link: "https://maxim-chat-app.netlify.app/login",
     image: u(chatApp),
     tags: ["React", "Socket.io", "Node.js"],
     category: "Web",
   },
   {
-    id: 8,
+    id: 9,
     title: "SalonHub – Booking Platform",
-    description: "Connect with top-rated beauty professionals in Uganda. Seamless appointment scheduling and service discovery.",
+    description:
+      "Connect with top-rated beauty professionals in Uganda. Seamless appointment scheduling and service discovery.",
     link: "https://salonhubuganda.netlify.app/",
     image: u(salonHub),
     tags: ["React", "Firebase", "Maps"],
     category: "Web",
   },
   {
-    id: 9,
+    id: 10,
     title: "Face Recognition Attendance",
-    description: "AI-powered attendance system using facial recognition. Published in the Cavendish Journal of Science and Technology.",
+    description:
+      "AI-powered attendance system using facial recognition. Published in the Cavendish Journal of Science and Technology.",
     link: "https://journals.cavendish.ac.ug/index.php/cjst/article/view/12",
     image: u(FaceRecognition),
     tags: ["Python", "OpenCV", "AI"],
     category: "AI",
   },
   {
-    id: 10,
+    id: 11,
     title: "Cavendish Canteen",
-    description: "Digital canteen solution: browse menus and place orders from smartphone or computer for campus food.",
+    description:
+      "Digital canteen solution: browse menus and place orders from smartphone or computer for campus food.",
     link: "https://cavendish-canteen.netlify.app/",
     image: u(cavendishCanteen),
     tags: ["React", "Node.js", "MySQL"],
     category: "Web",
   },
   {
-    id: 11,
+    id: 12,
     title: "Chat App UI/UX Demo",
-    description: "Clean, interactive frontend prototype for real-time messaging with focus on intuitive UX and visual appeal.",
+    description:
+      "Clean, interactive frontend prototype for real-time messaging with focus on intuitive UX and visual appeal.",
     link: "https://maximdoccure.netlify.app/",
     image: u(ChatAppInterface),
     tags: ["React", "SCSS", "UI/UX"],
     category: "Web",
   },
   {
-    id: 12,
+    id: 13,
     title: "MovieLand – Discover Films",
-    description: "Dynamic movie browsing app powered by TMDB API. Explore trending, upcoming, and classic films.",
+    description:
+      "Dynamic movie browsing app powered by TMDB API. Explore trending, upcoming, and classic films.",
     link: "https://maximmovieland.netlify.app/",
     image: u(MovieLand),
     tags: ["React", "TMDB API", "CSS"],
     category: "Web",
   },
   {
-    id: 13,
+    id: 14,
     title: "JavaScript Birthday Wisher",
-    description: "Interactive web app with animations and music delivering personalized birthday celebrations in the browser.",
+    description:
+      "Interactive web app with animations and music delivering personalized birthday celebrations in the browser.",
     link: "https://happy-birthday-doo-wan.netlify.app/",
     image: u(Birthday),
     tags: ["JavaScript", "CSS", "Canvas"],
     category: "Web",
   },
   {
-    id: 14,
+    id: 15,
     title: "Repos Céleste",
-    description: "Platform for accessing and honoring memories of loved ones with a respectful, user-friendly interface.",
+    description:
+      "Platform for accessing and honoring memories of loved ones with a respectful, user-friendly interface.",
     link: "https://reposceleste.netlify.app/",
     image: u(ReposCeleste),
     tags: ["React", "Firebase", "UX"],
     category: "Web",
   },
   {
-    id: 15,
+    id: 16,
     title: "Waste Management Robot",
-    description: "Robotic solution automating waste collection and sorting in urban environments to enhance recycling.",
+    description:
+      "Robotic solution automating waste collection and sorting in urban environments to enhance recycling.",
     link: "https://youtu.be/m3AqkR7lW1I",
     image: u(WasteManagement),
     tags: ["Robotics", "Arduino", "Python"],
@@ -168,7 +195,7 @@ const projects = [
   },
 ];
 
-const FILTERS = ["All", "Web", "AI", "Hardware"];
+const FILTERS = ["All", "Mobile", "Web", "AI", "Hardware"];
 
 const ProjectCard = ({ project, inView, index }) => (
   <article
@@ -205,7 +232,8 @@ const Project = () => {
   const [filter, setFilter] = useState("All");
   const [ref, inView] = useInView(0.05);
 
-  const visible = filter === "All" ? projects : projects.filter((p) => p.category === filter);
+  const visible =
+    filter === "All" ? projects : projects.filter((p) => p.category === filter);
 
   return (
     <div className="projects" ref={ref}>
@@ -216,7 +244,9 @@ const Project = () => {
         <p>Real-world systems, applications, and solutions I&apos;ve built</p>
       </div>
 
-      <div className={`filter-tabs reveal${inView ? " in-view" : ""} stagger-1`}>
+      <div
+        className={`filter-tabs reveal${inView ? " in-view" : ""} stagger-1`}
+      >
         {FILTERS.map((f) => (
           <button
             key={f}
@@ -230,7 +260,12 @@ const Project = () => {
 
       <div className="cards">
         {visible.map((project, i) => (
-          <ProjectCard key={project.id} project={project} inView={inView} index={i} />
+          <ProjectCard
+            key={project.id}
+            project={project}
+            inView={inView}
+            index={i}
+          />
         ))}
       </div>
     </div>
