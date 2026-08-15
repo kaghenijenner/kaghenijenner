@@ -1,5 +1,6 @@
 'use client';
 import "../styles/githubstats.scss";
+import GitHubContributions from "./GitHubContributions";
 
 const GitHubStats = () => {
     const username = "kaghenijenner";
@@ -12,6 +13,7 @@ const GitHubStats = () => {
                 <h2>GitHub <span>Statistics</span></h2>
                 <p>A snapshot of my open-source activity and contributions.</p>
             </div>
+            <GitHubContributions />
             <div className="stats-grid">
                 <div className="stat-card">
                     <img
@@ -34,7 +36,7 @@ const GitHubStats = () => {
                     />
                 </div>
 
-                <div className="stat-card">
+                <div className="stat-card profile-summary">
                     <img
                         src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${username}&theme=${summaryTheme}`}
                         alt="Profile Summary"

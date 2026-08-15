@@ -62,9 +62,10 @@ Create `client/.env.local` to enable the contact form:
 RESEND_API_KEY=your_resend_api_key
 RESEND_FROM_EMAIL=Portfolio <portfolio@your-verified-domain.example>
 NOTIFICATION_EMAIL=your-address@example.com
+GITHUB_TOKEN=your_github_personal_access_token
 ```
 
-The sending address must use a domain verified in Resend. Do not commit `.env.local` or expose the API key in browser code.
+The sending address must use a domain verified in Resend. The GitHub token is used only by the server-side contribution-calendar endpoint; add the `read:user` scope if private contribution counts should be included. Do not commit `.env.local` or expose either token in browser code.
 
 ## Project structure
 
@@ -103,7 +104,7 @@ The cards use dark themes, and the streak card uses the `Africa/Kampala` timezon
 
 ## Deployment
 
-The project includes `vercel.json` and is configured for Vercel. Set the three Resend environment variables in the Vercel project settings before deploying.
+The project includes `vercel.json` and is configured for Vercel. Set the Resend variables and `GITHUB_TOKEN` in the Vercel project settings before deploying.
 
 For another Node.js-compatible platform, install dependencies, run `npm run build`, and launch the app with `npm run start`. Next.js production output is written to `.next`, not `dist`.
 
