@@ -1,8 +1,8 @@
 # Kagheni Jenner
 
-  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=kaghenijenner&theme=discord_old_blurple&show_icons=true)
+  ![GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaghenijenner&theme=github_dark)
 
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaghenijenner&theme=discord_old_blurple) 
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaghenijenner&theme=github_dark)
  
 ### My name is Kagheni Jenner
 ### I'm a Software Engineer
@@ -23,18 +23,15 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 
 <hr></hr>
 
-  ![](https://github-profile-trophy-kannan.vercel.app/?username=kaghenijenner&theme=onedark)
+  ![](https://trophy.ryglcloud.net/?username=kaghenijenner&theme=onedark)
 
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaghenijenner&theme=discord_old_blurple)
-
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaghenijenner&theme=discord_old_blurple)
+  ![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaghenijenner&theme=github_dark)
   
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaghenijenner&theme=discord_old_blurple)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaghenijenner&theme=github_dark)
 
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaghenijenner&theme=discord_old_blurple)
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaghenijenner&theme=discord_old_blurple&utcOffset=3)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaghenijenner&theme=github_dark&utcOffset=3)
 
-[![GitHub Streak](https://streak-stats.demolab.com?&user=kaghenijenner&theme=dark)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.vercel.app?user=kaghenijenner&theme=dark&timezone=Africa%2FKampala)](https://git.io/streak-stats)
 
   ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 

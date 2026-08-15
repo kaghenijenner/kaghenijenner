@@ -4,6 +4,7 @@ import "../styles/githubstats.scss";
 const GitHubStats = () => {
     const username = "kaghenijenner";
     const theme = "discord_old_blurple";
+    const summaryTheme = "github_dark";
 
     return (
         <div className="github-stats">
@@ -14,38 +15,38 @@ const GitHubStats = () => {
             <div className="stats-grid">
                 <div className="stat-card">
                     <img
-                        src={`https://github-readme-stats.vercel.app/api?username=${username}&theme=${theme}&show_icons=true`}
+                        src={`https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${username}&theme=${summaryTheme}`}
                         alt="GitHub Stats"
                     />
                 </div>
                 
                 <div className="stat-card">
                     <img
-                        src={`https://github-readme-streak-stats.herokuapp.com/?user=${username}&theme=${theme}`}
+                        src={`https://streak-stats.vercel.app?user=${username}&theme=dark&timezone=Africa%2FKampala`}
                         alt="GitHub Streak"
                     />
                 </div>
 
                 <div className="stat-card">
                     <img
-                        src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&theme=${theme}&layout=compact`}
+                        src={`https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${username}&theme=${summaryTheme}`}
                         alt="Top Languages"
                     />
                 </div>
 
                 <div className="stat-card">
                     <img
-                        src={`http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${username}&theme=${theme}`}
+                        src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${username}&theme=${summaryTheme}`}
                         alt="Profile Summary"
                     />
                 </div>
 
-                {/* <div className="stat-card trophy">
+                <div className="stat-card trophy">
                     <img
-                        src={`https://github-profile-trophy-kannan.vercel.app/?username=${username}&theme=onedark`}
+                        src={`https://trophy.ryglcloud.net/?username=${username}&theme=onedark`}
                         alt="GitHub Trophies"
                     />
-                </div> */}
+                </div>
             </div>
 
             <div className="profile-views">
