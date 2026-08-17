@@ -8,4 +8,4 @@ Disallow: /*.ttf$
 # Allow everything else
 Allow: /
 
-Sitemap: https://jennermaxim.com/sitemap.xml
+Sitemap: https://kaghenijenner.com/sitemap.xml
