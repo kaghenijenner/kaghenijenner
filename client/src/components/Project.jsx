@@ -39,7 +39,7 @@ const projects = [
     title: "GarageLink",
     description:
       "GarageLink connects drivers in trouble with the nearest verified garages and mobile mechanics with live tracking, chat, and reviews.",
-    link: "https://garagelink.jennermaxim.com/",
+    link: "https://garagelink.kaghenijenner.com/",
     image: "/projects/garagelink.png",
     tags: ["React Native", "Node.js", "PostgreSQL"],
     category: "Mobile",
@@ -49,7 +49,7 @@ const projects = [
     title: "Akili za Kesho",
     description:
       "A purpose-built multi-tenant platform for African universities and innovation centers to manage every aspect of their operations securely, scalably, and simply.",
-    link: "https://akilizakesho.jennermaxim.com/",
+    link: "https://akilizakesho.com/",
     image: "/projects/akilizakesho.png",
     tags: ["Next.js", "MongoDB", "Node.js"],
     category: "Web",
@@ -59,7 +59,7 @@ const projects = [
     title: "Cavendish Innovation",
     description:
       "Ecosystem for student projects, showcase, collaborate, and manage innovative ideas with intuitive tools.",
-    link: "https://cuu.jennermaxim.com/",
+    link: "https://cuu.kaghenijenner.com/",
     image: "/projects/cavendish.png",
     tags: ["Next.js", "MongoDB", "Node.js"],
     category: "Web",
@@ -79,7 +79,7 @@ const projects = [
     title: "OnLeave – Leave Management",
     description:
       "Comprehensive employee leave management: request, approve, and track leave applications across organizations.",
-    link: "https://onleave-cuu.vercel.app/",
+    link: "https://onleave.kaghenijenner.com/",
     image: "/projects/onleave.svg",
     tags: ["Next.js", "Node.js", "MySQL"],
     category: "Web",
@@ -89,7 +89,7 @@ const projects = [
     title: "Gown Management System",
     description:
       "Streamlined inventory, rental, and tracking of formal gowns for boutiques and event planners.",
-    link: "https://gown-management.vercel.app/",
+    link: "https://gownmanagement.kaghenijenner.com/",
     image: "/projects/gown.jpg",
     tags: ["Next.js", "MongoDB", "Express"],
     category: "Web",
