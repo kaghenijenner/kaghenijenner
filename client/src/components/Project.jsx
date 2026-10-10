@@ -15,16 +15,6 @@ const projects = [
     category: "AI",
   },
   {
-    id: 1,
-    title: "Financial Freedom App",
-    description:
-      "Web application for depositing cryptocurrencies, earning profitable returns, and withdrawing funds securely.",
-    link: "https://financialfreedom.capital/",
-    image: "/projects/financialfreedom.jpeg",
-    tags: ["PHP", "MySQL", "Crypto"],
-    category: "Web",
-  },
-  {
     id: 2,
     title: "ACE Business Intelligence",
     description:
@@ -35,16 +25,6 @@ const projects = [
     category: "Web",
   },
   {
-    id: 3,
-    title: "GarageLink",
-    description:
-      "GarageLink connects drivers in trouble with the nearest verified garages and mobile mechanics with live tracking, chat, and reviews.",
-    link: "https://garagelink.kaghenijenner.com/",
-    image: "/projects/garagelink.png",
-    tags: ["React Native", "Node.js", "PostgreSQL"],
-    category: "Mobile",
-  },
-  {
     id: 4,
     title: "Akili za Kesho",
     description:
@@ -53,6 +33,36 @@ const projects = [
     image: "/projects/akilizakesho.png",
     tags: ["Next.js", "MongoDB", "Node.js"],
     category: "Web",
+  },
+  {
+    id: 12,
+    title: "Face Recognition Attendance",
+    description:
+      "AI-powered attendance system using facial recognition. Published in the Cavendish Journal of Science and Technology.",
+    link: "https://journals.cavendish.ac.ug/index.php/cjst/article/view/12",
+    image: "/projects/facerecognition.png",
+    tags: ["Python", "OpenCV", "AI"],
+    category: "AI",
+  },
+  {
+    id: 18,
+    title: "Waste Management Robot",
+    description:
+      "Robotic solution automating waste collection and sorting in urban environments to enhance recycling.",
+    link: "https://youtu.be/m3AqkR7lW1I",
+    image: "/projects/wastemanagement.png",
+    tags: ["Robotics", "Blender", "Design"],
+    category: "Hardware",
+  },
+  {
+    id: 3,
+    title: "GarageLink",
+    description:
+      "GarageLink connects drivers in trouble with the nearest verified garages and mobile mechanics with live tracking, chat, and reviews.",
+    link: "https://garagelink.kaghenijenner.com/",
+    image: "/projects/garagelink.png",
+    tags: ["React Native", "Node.js", "PostgreSQL"],
+    category: "Mobile",
   },
   {
     id: 5,
@@ -66,7 +76,7 @@ const projects = [
   },
   {
     id: 6,
-    title: "Dime-Order – QR Food Ordering",
+    title: "Dime-Order - QR Food Ordering",
     description:
       "Scan a QR code at your table, browse the menu, and place orders without waiting for a server.",
     link: "https://dimeorder.vercel.app/",
@@ -76,7 +86,7 @@ const projects = [
   },
   {
     id: 7,
-    title: "OnLeave – Leave Management",
+    title: "OnLeave - Leave Management",
     description:
       "Comprehensive employee leave management: request, approve, and track leave applications across organizations.",
     link: "https://onleave.kaghenijenner.com/",
@@ -105,18 +115,8 @@ const projects = [
     category: "VS Code Extension",
   },
   {
-    id: 10,
-    title: "Real-Time Chat Application",
-    description:
-      "Full-stack messaging platform with real-time communication, speed, security, and simplicity.",
-    link: "https://maxim-chat-app.netlify.app/login",
-    image: "/projects/chatApp.png",
-    tags: ["React", "Socket.io", "Firebase"],
-    category: "Web",
-  },
-  {
     id: 11,
-    title: "SalonHub – Booking Platform",
+    title: "SalonHub - Booking Platform",
     description:
       "Connect with top-rated beauty professionals in Uganda. Seamless appointment scheduling and service discovery.",
     link: "https://salonhubuganda.netlify.app/",
@@ -125,22 +125,12 @@ const projects = [
     category: "Web",
   },
   {
-    id: 12,
-    title: "Face Recognition Attendance",
+    id: 17,
+    title: "Repos Céleste",
     description:
-      "AI-powered attendance system using facial recognition. Published in the Cavendish Journal of Science and Technology.",
-    link: "https://journals.cavendish.ac.ug/index.php/cjst/article/view/12",
-    image: "/projects/facerecognition.png",
-    tags: ["Python", "OpenCV", "AI"],
-    category: "AI",
-  },
-  {
-    id: 13,
-    title: "Cavendish Canteen",
-    description:
-      "Digital canteen solution: browse menus and place orders from smartphone or computer for campus food.",
-    link: "https://cavendish-canteen.netlify.app/",
-    image: "/projects/cavendish-canteen.jpeg",
+      "Platform for accessing and honoring memories of loved ones with a respectful, user-friendly interface.",
+    link: "https://reposceleste.netlify.app/",
+    image: "/projects/reposceleste.jpg",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "Web",
   },
@@ -155,13 +145,23 @@ const projects = [
     category: "Web",
   },
   {
-    id: 15,
-    title: "MovieLand – Discover Films",
+    id: 10,
+    title: "Real-Time Chat Application",
     description:
-      "Dynamic movie browsing app powered by TMDB API. Explore trending, upcoming, and classic films.",
-    link: "https://maximmovieland.netlify.app/",
-    image: "/projects/movieland.png",
-    tags: ["React", "TMDB API", "CSS"],
+      "Full-stack messaging platform with real-time communication, speed, security, and simplicity.",
+    link: "https://maxim-chat-app.netlify.app/login",
+    image: "/projects/chatApp.png",
+    tags: ["React", "Socket.io", "Firebase"],
+    category: "Web",
+  },
+  {
+    id: 13,
+    title: "Cavendish Canteen",
+    description:
+      "Digital canteen solution: browse menus and place orders from smartphone or computer for campus food.",
+    link: "https://cavendish-canteen.netlify.app/",
+    image: "/projects/cavendish-canteen.jpeg",
+    tags: ["HTML", "CSS", "JavaScript"],
     category: "Web",
   },
   {
@@ -175,24 +175,24 @@ const projects = [
     category: "Web",
   },
   {
-    id: 17,
-    title: "Repos Céleste",
+    id: 15,
+    title: "MovieLand - Discover Films",
     description:
-      "Platform for accessing and honoring memories of loved ones with a respectful, user-friendly interface.",
-    link: "https://reposceleste.netlify.app/",
-    image: "/projects/reposceleste.jpg",
-    tags: ["HTML", "CSS", "JavaScript"],
+      "Dynamic movie browsing app powered by TMDB API. Explore trending, upcoming, and classic films.",
+    link: "https://maximmovieland.netlify.app/",
+    image: "/projects/movieland.png",
+    tags: ["React", "TMDB API", "CSS"],
     category: "Web",
   },
   {
-    id: 18,
-    title: "Waste Management Robot",
+    id: 1,
+    title: "Financial Freedom App",
     description:
-      "Robotic solution automating waste collection and sorting in urban environments to enhance recycling.",
-    link: "https://youtu.be/m3AqkR7lW1I",
-    image: "/projects/wastemanagement.png",
-    tags: ["Robotics", "Blender", "Design"],
-    category: "Hardware",
+      "Web application for depositing cryptocurrencies, earning profitable returns, and withdrawing funds securely.",
+    // link: "https://financialfreedom.capital/",
+    image: "/projects/financialfreedom.jpeg",
+    tags: ["PHP", "MySQL", "Crypto"],
+    category: "Web",
   },
 ];
 
