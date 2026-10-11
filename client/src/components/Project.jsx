@@ -15,7 +15,7 @@ const projects = [
     category: "AI",
   },
   {
-    id: 2,
+    id: 1,
     title: "ACE Business Intelligence",
     description:
       "ACE Business Intelligence transforms how you run events, from guest registration and QR check-in to live dashboards and personalised WhatsApp messages. Everything in one platform.",
@@ -25,7 +25,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 4,
+    id: 2,
     title: "Akili za Kesho",
     description:
       "A purpose-built multi-tenant platform for African universities and innovation centers to manage every aspect of their operations securely, scalably, and simply.",
@@ -35,7 +35,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 12,
+    id: 3,
     title: "Face Recognition Attendance",
     description:
       "AI-powered attendance system using facial recognition. Published in the Cavendish Journal of Science and Technology.",
@@ -45,7 +45,7 @@ const projects = [
     category: "AI",
   },
   {
-    id: 18,
+    id: 4,
     title: "Waste Management Robot",
     description:
       "Robotic solution automating waste collection and sorting in urban environments to enhance recycling.",
@@ -55,7 +55,7 @@ const projects = [
     category: "Hardware",
   },
   {
-    id: 3,
+    id: 5,
     title: "GarageLink",
     description:
       "GarageLink connects drivers in trouble with the nearest verified garages and mobile mechanics with live tracking, chat, and reviews.",
@@ -65,7 +65,7 @@ const projects = [
     category: "Mobile",
   },
   {
-    id: 5,
+    id: 6,
     title: "Cavendish Innovation",
     description:
       "Ecosystem for student projects, showcase, collaborate, and manage innovative ideas with intuitive tools.",
@@ -75,7 +75,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 6,
+    id: 7,
     title: "Dime-Order - QR Food Ordering",
     description:
       "Scan a QR code at your table, browse the menu, and place orders without waiting for a server.",
@@ -85,7 +85,7 @@ const projects = [
     category: "Mobile",
   },
   {
-    id: 7,
+    id: 8,
     title: "OnLeave - Leave Management",
     description:
       "Comprehensive employee leave management: request, approve, and track leave applications across organizations.",
@@ -95,7 +95,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 8,
+    id: 9,
     title: "Gown Management System",
     description:
       "Streamlined inventory, rental, and tracking of formal gowns for boutiques and event planners.",
@@ -105,7 +105,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 9,
+    id: 10,
     title: "Browser Music Sidebar",
     description:
       "A vscode extension that provides a sidebar for music streaming, allowing users to listen to music while coding",
@@ -116,6 +116,16 @@ const projects = [
   },
   {
     id: 11,
+    title: "Check-In App",
+    description:
+      "A check-in app that keeps your daily and monthly goals on track by allowing you to check in and track your progress.",
+    link: "https://checkin.kaghenijenner.com/",
+    image: "/projects/checkinapp.svg",
+    tags: ["Next.js", "Node.js", "MongoDB"],
+    category: "Web",
+  },
+  {
+    id: 12,
     title: "SalonHub - Booking Platform",
     description:
       "Connect with top-rated beauty professionals in Uganda. Seamless appointment scheduling and service discovery.",
@@ -125,7 +135,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 17,
+    id: 13,
     title: "Repos Céleste",
     description:
       "Platform for accessing and honoring memories of loved ones with a respectful, user-friendly interface.",
@@ -145,7 +155,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 10,
+    id: 15,
     title: "Real-Time Chat Application",
     description:
       "Full-stack messaging platform with real-time communication, speed, security, and simplicity.",
@@ -155,7 +165,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 13,
+    id: 16,
     title: "Cavendish Canteen",
     description:
       "Digital canteen solution: browse menus and place orders from smartphone or computer for campus food.",
@@ -165,7 +175,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 16,
+    id: 17,
     title: "JavaScript Birthday Wisher",
     description:
       "Interactive web app with animations and music delivering personalized birthday celebrations in the browser.",
@@ -175,7 +185,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 15,
+    id: 18,
     title: "MovieLand - Discover Films",
     description:
       "Dynamic movie browsing app powered by TMDB API. Explore trending, upcoming, and classic films.",
@@ -185,7 +195,7 @@ const projects = [
     category: "Web",
   },
   {
-    id: 1,
+    id: 19,
     title: "Financial Freedom App",
     description:
       "Web application for depositing cryptocurrencies, earning profitable returns, and withdrawing funds securely.",
