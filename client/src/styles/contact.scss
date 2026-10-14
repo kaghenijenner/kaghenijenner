@@ -1,4 +1,4 @@
-@use './glass' as *;
+@use "./glass" as *;
 
 @keyframes ripple {
   0% {
@@ -119,7 +119,8 @@
         font-weight: 600;
       }
 
-      a, .location {
+      a,
+      .location {
         display: flex;
         align-items: center;
         gap: 10px;
@@ -270,6 +271,18 @@
     }
 
     .contact-form {
+      .form-trap {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
       .form-group {
         margin-bottom: 22px;
 

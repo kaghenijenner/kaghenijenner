@@ -1,5 +1,5 @@
-'use client';
-import { useState } from "react";
+"use client";
+import { useEffect, useRef, useState } from "react";
 import "../styles/contact.scss";
 import GitHub from "../assets/github.png";
 import LinkedIn from "../assets/linkedin.png";
@@ -13,48 +13,108 @@ const u = (i) => i?.src ?? i;
 
 const socials = [
   { href: "http://github.com/kaghenijenner", img: u(GitHub), label: "GitHub" },
-  { href: "https://www.linkedin.com/in/kagheni-jenner-b11051251", img: u(LinkedIn), label: "LinkedIn" },
+  {
+    href: "https://www.linkedin.com/in/kagheni-jenner-b11051251",
+    img: u(LinkedIn),
+    label: "LinkedIn",
+  },
   { href: "https://x.com/kaghenijenner", img: u(X), label: "X" },
-  { href: "https://www.instagram.com/jennermaxim", img: u(Instagram), label: "Instagram" },
+  {
+    href: "https://www.instagram.com/jennermaxim",
+    img: u(Instagram),
+    label: "Instagram",
+  },
   { href: "https://wa.me/+256784305644", img: u(Whatsapp), label: "WhatsApp" },
   { href: "https://t.me/kaghenijenner", img: u(Telegram), label: "Telegram" },
 ];
 
 const MailIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-    stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.8"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
     <rect x="2" y="4" width="20" height="16" rx="2" />
     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
   </svg>
 );
 
 const PhoneIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-    stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.8"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
     <rect x="5" y="2" width="14" height="20" rx="2" />
     <line x1="12" y1="18" x2="12" y2="18" strokeWidth="2.5" />
   </svg>
 );
 
 const MapPinIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-    stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.8"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
     <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z" />
     <circle cx="12" cy="10" r="3" />
   </svg>
 );
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "" });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+    company: "",
+  });
   const [status, setStatus] = useState({ type: "", text: "" });
   const [sending, setSending] = useState(false);
+  const [formToken, setFormToken] = useState("");
+  const formStartedAt = useRef(Date.now());
   const [headerRef, headerInView] = useInView(0.1);
   const [contentRef, contentInView] = useInView(0.05);
 
-  const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
+  useEffect(() => {
+    fetch("/api/contact", { cache: "no-store" })
+      .then((res) =>
+        res.ok ? res.json() : Promise.reject(new Error("Unable to load form.")),
+      )
+      .then(({ token }) => setFormToken(token))
+      .catch(() =>
+        setStatus({
+          type: "error",
+          text: "Unable to load the contact form. Please refresh and try again.",
+        }),
+      );
+  }, []);
+
+  const handleChange = (e) =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!formToken) {
+      setStatus({
+        type: "error",
+        text: "The form is still loading. Please refresh and try again.",
+      });
+      return;
+    }
+
     setSending(true);
     setStatus({ type: "", text: "" });
 
@@ -62,15 +122,46 @@ const Contact = () => {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          formToken,
+          formStartedAt: formStartedAt.current,
+        }),
       });
       const data = await res.json();
 
       if (res.ok) {
-        setStatus({ type: "success", text: "Message sent! I'll get back to you soon." });
-        setFormData({ name: "", email: "", subject: "", message: "" });
+        setStatus({
+          type: "success",
+          text: "Message sent! I'll get back to you soon.",
+        });
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+          company: "",
+        });
+        setFormToken("");
+        formStartedAt.current = Date.now();
+        fetch("/api/contact", { cache: "no-store" })
+          .then((tokenResponse) =>
+            tokenResponse.ok
+              ? tokenResponse.json()
+              : Promise.reject(new Error()),
+          )
+          .then(({ token }) => setFormToken(token))
+          .catch(() =>
+            setStatus({
+              type: "error",
+              text: "Please refresh before sending another message.",
+            }),
+          );
       } else {
-        setStatus({ type: "error", text: data.error || "Something went wrong. Please try again." });
+        setStatus({
+          type: "error",
+          text: data.error || "Something went wrong. Please try again.",
+        });
       }
     } catch {
       setStatus({ type: "error", text: "Network error. Please try again." });
@@ -82,36 +173,53 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <div className="contact-header" ref={headerRef}>
-        <h1 className={`reveal${headerInView ? " in-view" : ""}`}>Get In Touch</h1>
+        <h1 className={`reveal${headerInView ? " in-view" : ""}`}>
+          Get In Touch
+        </h1>
         <p className={`reveal${headerInView ? " in-view" : ""} stagger-1`}>
           Have a project in mind? Let&apos;s build something great together.
         </p>
       </div>
 
       <div className="contact-content" ref={contentRef}>
-        <div className={`contact-info reveal-left${contentInView ? " in-view" : ""}`}>
+        <div
+          className={`contact-info reveal-left${contentInView ? " in-view" : ""}`}
+        >
           <h2>Contact Information</h2>
 
           <div className="info-item">
             <h3>Email</h3>
-            <a href="mailto:ceo@jennermaxim.com"><MailIcon /> ceo@jennermaxim.com</a>
+            <a href="mailto:ceo@jennermaxim.com">
+              <MailIcon /> ceo@jennermaxim.com
+            </a>
           </div>
 
           <div className="info-item">
             <h3>Phone</h3>
-            <a href="tel:+256784305644"><PhoneIcon /> +256 784 305 644</a>
+            <a href="tel:+256784305644">
+              <PhoneIcon /> +256 784 305 644
+            </a>
           </div>
 
           <div className="info-item">
             <h3>Location</h3>
-            <p className="location"><MapPinIcon /> Kampala, Uganda</p>
+            <p className="location">
+              <MapPinIcon /> Kampala, Uganda
+            </p>
           </div>
 
           <div className="social-links">
             <h3>Social Media</h3>
             <div className="social-icons">
               {socials.map((s) => (
-                <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" suppressHydrationWarning title={s.label}>
+                <a
+                  key={s.label}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  suppressHydrationWarning
+                  title={s.label}
+                >
                   <img src={s.img} alt={s.label} />
                 </a>
               ))}
@@ -129,40 +237,69 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className={`contact-form-section reveal-right${contentInView ? " in-view" : ""}`}>
+        <div
+          className={`contact-form-section reveal-right${contentInView ? " in-view" : ""}`}
+        >
           <h2>Send Me a Message</h2>
           <form onSubmit={handleSubmit} className="contact-form">
+            <div className="form-trap" aria-hidden="true">
+              <label htmlFor="company">Company</label>
+              <input
+                type="text"
+                id="company"
+                name="company"
+                tabIndex="-1"
+                autoComplete="off"
+                value={formData.company}
+                onChange={handleChange}
+              />
+            </div>
             <div className="form-group">
               <label htmlFor="name">Your Name *</label>
               <input
-                type="text" id="name" name="name"
-                value={formData.name} onChange={handleChange}
-                required placeholder="Kagheni Jenner"
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                placeholder="Kagheni Jenner"
               />
             </div>
             <div className="form-group" suppressHydrationWarning>
               <label htmlFor="email">Your Email *</label>
               <input
-                type="email" id="email" name="email"
-                value={formData.email} onChange={handleChange}
-                required placeholder="you@company.com"
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                placeholder="you@company.com"
                 suppressHydrationWarning
               />
             </div>
             <div className="form-group">
               <label htmlFor="subject">Subject *</label>
               <input
-                type="text" id="subject" name="subject"
-                value={formData.subject} onChange={handleChange}
-                required placeholder="Project Inquiry"
+                type="text"
+                id="subject"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+                required
+                placeholder="Project Inquiry"
               />
             </div>
             <div className="form-group">
               <label htmlFor="message">Message *</label>
               <textarea
-                id="message" name="message"
-                value={formData.message} onChange={handleChange}
-                required rows="6"
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+                rows="6"
                 placeholder="Tell me about your project, timeline, and budget..."
               />
             </div>
@@ -170,7 +307,9 @@ const Contact = () => {
               {sending ? "Sending..." : "Send Message →"}
             </button>
             {status.text && (
-              <p className={`status-message${status.type === "error" ? " status-error" : ""}`}>
+              <p
+                className={`status-message${status.type === "error" ? " status-error" : ""}`}
+              >
                 {status.text}
               </p>
             )}
