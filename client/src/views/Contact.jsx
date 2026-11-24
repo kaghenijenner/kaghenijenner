@@ -20,7 +20,7 @@ const socials = [
   },
   { href: "https://x.com/kaghenijenner", img: u(X), label: "X" },
   {
-    href: "https://www.instagram.com/jennermaxim",
+    href: "https://www.instagram.com/kaghenijenner",
     img: u(Instagram),
     label: "Instagram",
   },

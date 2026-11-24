@@ -17,9 +17,9 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 - 👯 I’m looking to collaborate on an open-source project
 - 📫 How to reach me: <a href="mailto:jennersi1remaxim@gmail.com">Email Me</a>
 
-[Some of my projects](https://jennermaxim.netlify.app/projects)
+[Some of my projects](https://kaghenijenner.com/projects)
 
-[Some of my Certificates](https://jennermaxim.netlify.app/certificates)
+[Some of my Certificates](https://kaghenijenner.com/certificates)
 
 <hr></hr>
 
@@ -31,7 +31,7 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 
   ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaghenijenner&theme=github_dark&utcOffset=3)
 
-![Lifetime GitHub Streak: 474 days](https://img.shields.io/badge/Lifetime%20GitHub%20Streak-474%20days-58A6FF?style=for-the-badge)
+[![GitHub Lifetime Statistics](https://kaghenijenner.com/api/github-contributions/card)](https://github.com/kaghenijenner)
 
   ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 

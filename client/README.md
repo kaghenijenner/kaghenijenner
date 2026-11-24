@@ -114,4 +114,4 @@ For another Node.js-compatible platform, install dependencies, run `npm run buil
 - GitHub: [@kaghenijenner](https://github.com/kaghenijenner)
 - LinkedIn: [Jenner Maxim](https://www.linkedin.com/in/jenner-maxim-b11051251)
 - X: [@maximjenner](https://x.com/maximjenner)
-- Instagram: [@jennermaxim](https://www.instagram.com/jennermaxim)
+- Instagram: [@kaghenijenner](https://www.instagram.com/kaghenijenner)

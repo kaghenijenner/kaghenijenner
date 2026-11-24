@@ -27,7 +27,7 @@ export const metadata = {
     siteName: "Kagheni Jenner",
     images: [
       {
-        url: "https://jennermaxim.com/jennermaxim.png",
+        url: "https://kaghenijenner.com/jennermaxim.png",
         width: 800,
         height: 800,
         alt: "Kagheni Jenner",

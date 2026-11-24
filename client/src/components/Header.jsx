@@ -46,7 +46,7 @@ const Header = () => {
       <div className="pre-header-bar">
         <div className="pre-header">
           <div className="contact">
-            <a href="mailto:ceo@jennermaxim.com">
+            <a href="mailto:codingmaxim6@gmail.com">
               <span className="icon">✉</span> Email me
             </a>
             <a href="tel:+256784305644">
@@ -63,13 +63,13 @@ const Header = () => {
             <a href="https://x.com/maximjenner" target="_blank" rel="noopener noreferrer" suppressHydrationWarning title="X">
               <img src={u(X)} alt="X" />
             </a>
-            <a href="https://www.instagram.com/jennermaxim" target="_blank" rel="noopener noreferrer" suppressHydrationWarning title="Instagram">
+            <a href="https://www.instagram.com/kaghenijenner" target="_blank" rel="noopener noreferrer" suppressHydrationWarning title="Instagram">
               <img src={u(Instagram)} alt="Instagram" />
             </a>
             <a href="https://wa.me/+256784305644" target="_blank" rel="noopener noreferrer" suppressHydrationWarning title="WhatsApp">
               <img src={u(Whatsapp)} alt="WhatsApp" />
             </a>
-            <a href="https://t.me/jennermaxim" target="_blank" rel="noopener noreferrer" suppressHydrationWarning title="Telegram">
+            <a href="https://t.me/kaghenijenner" target="_blank" rel="noopener noreferrer" suppressHydrationWarning title="Telegram">
               <img src={u(Telegram)} alt="Telegram" />
             </a>
           </div>
