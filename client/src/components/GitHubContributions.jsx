@@ -30,6 +30,35 @@ function getMonthLabel(week, index, weeks) {
   }).format(new Date(`${firstDate}T00:00:00Z`));
 }
 
+function getStreaks(weeks) {
+  const days = weeks.flatMap((week) => week.contributionDays).sort((a, b) =>
+    a.date.localeCompare(b.date),
+  );
+
+  let current = 0;
+  let longest = 0;
+  let run = 0;
+
+  for (const day of days) {
+    if (day.contributionCount > 0) {
+      run += 1;
+      longest = Math.max(longest, run);
+    } else {
+      run = 0;
+    }
+  }
+
+  for (let index = days.length - 1; index >= 0; index -= 1) {
+    if (days[index].contributionCount > 0) {
+      current += 1;
+    } else {
+      break;
+    }
+  }
+
+  return { current, longest };
+}
+
 export default function GitHubContributions() {
   const [calendar, setCalendar] = useState(null);
   const [error, setError] = useState(false);
@@ -70,9 +99,24 @@ export default function GitHubContributions() {
     );
   }
 
+  const streaks =
+    typeof calendar.currentStreak === "number" &&
+    typeof calendar.longestStreak === "number"
+      ? {
+          current: calendar.currentStreak,
+          longest: calendar.longestStreak,
+        }
+      : getStreaks(calendar.weeks);
+
   return (
     <section className="contributions-card" aria-label="GitHub contribution calendar">
-      <h3>{calendar.totalContributions.toLocaleString()} contributions in the last year</h3>
+      <h3>
+        {calendar.totalContributions.toLocaleString()} contributions
+        {" • "}
+        {streaks.current.toLocaleString()} day current streak
+        {" • "}
+        {streaks.longest.toLocaleString()} day longest streak
+      </h3>
 
       <div className="contributions-scroll">
         <div className="contributions-chart">

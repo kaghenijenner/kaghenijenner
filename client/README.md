@@ -8,7 +8,7 @@ A responsive portfolio website for Kagheni Jenner, built with Next.js and React.
 - Next.js App Router with static pages and a server-side contact endpoint
 - Contact email delivery through Resend
 - PDF résumé viewer and download support
-- Live GitHub statistics, streak, language, summary, trophy, and profile-view cards
+- Live GitHub statistics, account-lifetime streak, language, summary, trophy, and profile-view cards
 - Vercel Analytics and Speed Insights
 - Sass styling, animations, and reusable responsive components
 - Search-engine and social-sharing metadata
@@ -96,11 +96,11 @@ client/
 The GitHub section uses the following maintained sources:
 
 - [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) for stats, languages, and profile details
-- [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) through a working Vercel deployment
 - [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy) through its listed RyglCloud mirror
 - [Komarev Profile Views Counter](https://github.com/antonkomarev/github-profile-views-counter)
+- The account-lifetime streak card and contribution calendar are calculated from GitHub GraphQL contribution data
 
-The cards use dark themes, and the streak card uses the `Africa/Kampala` timezone.
+The external cards use dark themes. The streak card uses the server-side contribution-calendar API and calculates the current and longest streak across all available account-history data, rather than the latest one-year calendar window.
 
 ## Deployment
 

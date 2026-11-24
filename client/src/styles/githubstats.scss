@@ -195,6 +195,41 @@
       border-radius: 12px;
     }
 
+    &.streak-card {
+      min-height: 150px;
+      gap: 18px;
+
+      .streak-icon {
+        font-size: 3.5rem;
+        line-height: 1;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      strong {
+        color: var(--text-strong);
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        line-height: 1;
+      }
+
+      span,
+      small {
+        color: var(--muted, #8888aa);
+      }
+
+      span {
+        margin-top: 8px;
+        font-weight: 700;
+      }
+
+      small {
+        margin-top: 6px;
+      }
+    }
+
     &.trophy {
       grid-column: 1 / -1;
       padding: 28px;

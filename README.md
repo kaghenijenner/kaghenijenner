@@ -31,7 +31,7 @@ Skills: JAVASCRIPT / TYPESCRIPT / JQUERY / AJAX / REACT.JS / REACT NATIVE / NEXT
 
   ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaghenijenner&theme=github_dark&utcOffset=3)
 
-[![GitHub Streak](https://streak-stats.vercel.app?user=kaghenijenner&theme=dark&timezone=Africa%2FKampala)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=kaghenijenner&theme=dark&hide_border=true&timezone=Africa%2FKampala)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
   ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 

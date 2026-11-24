@@ -1,4 +1,5 @@
 'use client';
+import { useEffect, useState } from "react";
 import "../styles/githubstats.scss";
 import GitHubContributions from "./GitHubContributions";
 
@@ -6,6 +7,23 @@ const GitHubStats = () => {
     const username = "kaghenijenner";
     const theme = "discord_old_blurple";
     const summaryTheme = "github_dark";
+    const [streaks, setStreaks] = useState(null);
+
+    useEffect(() => {
+        const controller = new AbortController();
+
+        fetch("/api/github-contributions", { signal: controller.signal })
+            .then((response) => response.ok ? response.json() : Promise.reject(new Error()))
+            .then((calendar) => setStreaks({
+                current: calendar.currentStreak,
+                longest: calendar.longestStreak,
+            }))
+            .catch((error) => {
+                if (error.name !== "AbortError") setStreaks(null);
+            });
+
+        return () => controller.abort();
+    }, []);
 
     return (
         <div className="github-stats">
@@ -15,20 +33,22 @@ const GitHubStats = () => {
             </div>
             <GitHubContributions />
             <div className="stats-grid">
+                <div className="stat-card streak-card" aria-live="polite">
+                    <span className="streak-icon" aria-hidden="true">🔥</span>
+                    <div>
+                        <strong>{streaks ? streaks.current.toLocaleString() : "—"}</strong>
+                        <span>day current streak</span>
+                        {streaks && (
+                            <small>Longest: {streaks.longest.toLocaleString()} days</small>
+                        )}
+                    </div>
+                </div>
                 <div className="stat-card">
                     <img
                         src={`https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${username}&theme=${summaryTheme}`}
                         alt="GitHub Stats"
                     />
                 </div>
-                
-                <div className="stat-card">
-                    <img
-                        src={`https://streak-stats.vercel.app?user=${username}&theme=dark&timezone=Africa%2FKampala`}
-                        alt="GitHub Streak"
-                    />
-                </div>
-
                 <div className="stat-card">
                     <img
                         src={`https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${username}&theme=${summaryTheme}`}
